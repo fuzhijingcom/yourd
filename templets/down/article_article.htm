@@ -1,0 +1,100 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>{dede:field.title/}-{dede:global.cfg_webname/}</title>
+<meta content="{dede:field.keywords/}" name="Keywords">
+<meta name="description" content="{dede:field.description  function='html2text(@me)'/}" />
+<LINK href="{dede:global.cfg_templets_skin/}/style/soft.css" type=text/css rel=stylesheet>
+<LINK href="{dede:global.cfg_templets_skin/}/style/header5.css" type=text/css rel=stylesheet><base target="_blank">
+</HEAD>
+{dede:include filename="head.htm"/}  
+         <div class="bgcontain" style="margin-top:4px;">
+ 
+   </div>
+        <div class="bgcontain">
+
+
+         <div id="layout">
+          <div id="layoutborder">
+           <div id="main">
+             <div id="intro"> 
+             <h2> {dede:field.title/}  </h2>
+ 
+ 
+                 </div>
+                              <div id="intro"> 
+             <h2><small>时间:</small>{dede:field.pubdate function="MyDate('Y-m-d H:i',@me)"/}|<small>来源:</small>{dede:field.source/}|<small>作者:</small>{dede:field.writer/}|<small>点击:</small>
+   <script src="{dede:field name='phpurl'/}/count.php?view=yes&aid={dede:field name='id'/}&mid={dede:field name='mid'/}" type='text/javascript' language="javascript"></script>      次
+   |<a href="{dede:field name='phpurl'/}/stow.php?aid={dede:field.id/}" target="_blank">收藏</a> 
+    |<a href="{dede:field name='phpurl'/}/erraddsave.php?aid={dede:field.id/}&title={dede:field.title/}" target="_blank">挑错</a> 
+     |<a href="{dede:field name='phpurl'/}/recommend.php?aid={dede:field.id/}" target="_blank">推荐</a> 
+    |<a href="#" onClick="window.print();">打印</a> 
+ 
+</h2>
+ 
+ 
+                 </div>
+               <div id="intro"> 
+              <h2>软件介绍
+             </h2>
+        <p>{dede:field.body/}</p> </div>		     
+  <div id="intro"> 
+                <li>{dede:prenext get='pre'/}</li>
+     <li>{dede:prenext get='next'/}</li> </div>
+
+        <div id="softcomments">
+          <h2> 相关评论 <span>Soft Comments</span></h2>
+<!--兼容版，可保证页面完全兼容-->
+<div id="SOHUCS"></div>
+<script>
+  (function(){
+    var appid = 'cyqXHXM4p',
+    conf = 'prod_bc3ea21614e0fdc4359bdd4d3315313f';
+    var doc = document,
+    s = doc.createElement('script'),
+    h = doc.getElementsByTagName('head')[0] || doc.head || doc.documentElement;
+    s.type = 'text/javascript';
+    s.charset = 'utf-8';
+    s.src =  'http://assets.changyan.sohu.com/upload/changyan.js?conf='+ conf +'&appid=' + appid;
+    h.insertBefore(s,h.firstChild);
+  })()
+</script>
+</div>
+        </div>
+        <div id="sidebar">
+          <div id="div">
+ 
+  <div id="cattop">
+    <h2>本类精品推荐</h2>
+ 
+  </div>
+  <div id="cattop">
+    <h2>推荐文章</h2>
+    <ul>
+      {dede:arclist row=10 orderby=click}
+      <li><a href="[field:arcurl/]">[field:title/]</a></li>
+      {/dede:arclist}
+
+
+    </ul>
+    </div>
+  <div id="cattop">
+       <h2>热门文章</h2>
+       <ul>     {dede:arclist flag='c' titlelen=42 row=6}
+      <li><a href="[field:arcurl/]">[field:title/]</a>
+       <p>[field:description function='cn_substr(@me,80)'/]...</p>
+      </li>
+      {/dede:arclist}
+      </ul></div>
+
+  <div id="cattop">
+    <h2>广告赞助</h2>
+	<script src='/plus/ad_js.php?aid=25' language='javascript'></script>
+</div>
+     </div>
+      </div>
+      </div>
+    </div>
+  
+{dede:include filename="footer.htm"/}

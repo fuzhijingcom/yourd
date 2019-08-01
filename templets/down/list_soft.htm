@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>{dede:field.title/}-{dede:global.cfg_webname/}</title>
+<meta content="{dede:field name='keywords'/}" name="Keywords">
+<meta name="description" content="{dede:field name='description'  function='html2text(@me)'/}" />
+<LINK href="{dede:global.cfg_templets_skin/}/style/pmdown.css" type=text/css rel=stylesheet>
+<LINK href="{dede:global.cfg_templets_skin/}/style/header.css" type=text/css rel=stylesheet><base target="_blank">
+</HEAD>
+{dede:include filename="head.htm"/}
+         <div class="bgcontain">
+ 
+        </div>
+              <div class="bgcontain">
+              <div id="essential"> 
+              <h2 id="essentialTitle">热门下载</h2>              
+             <ul>
+{dede:arclist      row='10'   orderby ='click'}
+        <li><a href="[field:arcurl/]">[field:title/]</a></li>
+{/dede:arclist}
+             </ul>    <h2 id="essentialTitle">广告赞助</h2>    
+			 <script src='/plus/ad_js.php?aid=24' language='javascript'></script>
+
+              </div>
+ 
+            <div class="other2">
+             <h2><span>资源列表</span></h2>
+              <ul>
+   {dede:list  titlelen='60'  orderby ='pubdate'      pagesize ='25'         }
+       <li id="checkdate"><a class="soft" href="[field:arcurl/]" title="[field:title/]">[field:title/]</a> <span class="date">[field:pubdate function="MyDate('Y-m-d',@me)"/]</span></li>
+ {/dede:list}
+ 
+              </ul>
+           
+    <div id="pagenav">
+	 
+				{dede:pagelist listitem="info,index,end,pre,next,pageno" listsize="5"/}
+ 
+		</div></div><!-- /pages -->
+</div>
+{dede:include filename="footer.htm"/}

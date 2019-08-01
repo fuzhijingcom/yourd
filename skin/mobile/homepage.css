@@ -1,0 +1,102 @@
+html {
+	-ms-text-size-adjust:100%;
+	-webkit-text-size-adjust:100%;
+	line-height:1.6
+}
+body {
+	-webkit-touch-callout:none;
+	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+	line-height:inherit
+}
+ul,li {
+	list-style-type:none;
+	padding:0px;
+	margin:0px
+}
+h1,h2,h3,h4,h5,h6 {
+	font-weight:400;
+	font-size:16px
+}
+* {
+	margin:0;
+	padding:0;
+	font-style:normal
+}
+a {
+	color:#607fa6;
+	text-decoration:none
+}
+.container {
+	overflow:hidden
+}
+.loading {
+	position:absolute;
+	top:50%;
+	left:50%;
+	color:#888;
+	-webkit-transform:translate(-50%,-50%);
+	-ms-transform:translate(-50%,-50%);
+	transform:translate(-50%,-50%);
+	margin-top:-10px
+}
+/*! Amaze UI v2.1.0 | by Amaze UI Team  */
+.am-pagination:before,.am-pagination:after {
+	content:" ";
+	display:table
+}
+.am-pagination:after {
+	clear:both
+}
+.am-pagination>li {
+	display:inline-block
+}
+.am-pagination>li>a,.am-pagination>li>span {
+	position:relative;
+	display:block;
+	padding:.5em 1em;
+	text-decoration:none;
+	line-height:1.2;
+	background-color:#fff;
+	border:1px solid #ddd;
+	border-radius:0;
+	margin-bottom:5px;
+	margin-right:5px
+}
+.am-pagination>li:last-child>a,.am-pagination>li:last-child>span {
+	margin-right:0
+}
+.am-pagination>li>a:hover,.am-pagination>li>span:hover,.am-pagination>li>a:focus,.am-pagination>li>span:focus {
+	background-color:#eee
+}
+.am-pagination>.am-active>a,.am-pagination>.am-active>span,.am-pagination>.am-active>a:hover,.am-pagination>.am-active>span:hover,.am-pagination>.am-active>a:focus,.am-pagination>.am-active>span:focus {
+	z-index:2;
+	color:#fff;
+	background-color:#0e90d2;
+	border-color:#0e90d2;
+	cursor:default
+}
+.am-pagination>.am-disabled>span,.am-pagination>.am-disabled>span:hover,.am-pagination>.am-disabled>span:focus,.am-pagination>.am-disabled>a,.am-pagination>.am-disabled>a:hover,.am-pagination>.am-disabled>a:focus {
+	color:#999;
+	background-color:#fff;
+	border-color:#ddd;
+	cursor:not-allowed;
+	pointer-events:none
+}
+.am-pagination .am-pagination-prev {
+	float:left
+}
+.am-pagination .am-pagination-prev a {
+	border-radius:0
+}
+.am-pagination .am-pagination-next {
+	float:right
+}
+.am-pagination .am-pagination-next a {
+	border-radius:0
+}
+.am-pagination-centered {
+	text-align:center
+}
+.am-pagination-right {
+	text-align:right
+}

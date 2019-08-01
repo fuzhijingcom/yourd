@@ -1,0 +1,311 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+
+<HTML xmlns="http://www.w3.org/1999/xhtml"><HEAD>
+	<TITLE>{dede:field.title/}_{dede:global.cfg_webname/}</TITLE>
+<META content="text/html; charset=gb2312" http-equiv=Content-Type>
+<META name=keywords content={dede:field.keywords/}>
+<META name=description content={dede:field.description  function='html2text(@me)'/}>
+
+<LINK rel=stylesheet type=text/css href="{dede:global.cfg_templets_skin/}/style/news_v.css">
+<SCRIPT type=text/javascript src="{dede:global.cfg_templets_skin/}/style/s.js"></SCRIPT>
+
+<SCRIPT type=text/javascript src="{dede:global.cfg_templets_skin/}/style/common_v.js"></SCRIPT>
+
+<SCRIPT type=text/javascript src="{dede:global.cfg_templets_skin/}/style/all.js"></SCRIPT>
+
+<META name=GENERATOR content="MSHTML 8.00.6001.18702"></HEAD>
+
+<BODY>
+	
+	{dede:include filename="head.htm"/}
+	
+	
+<DIV class=w960>
+
+</DIV>
+<DIV class=w960>
+<DIV id=news_nav> {dede:field name='position'/}</DIV>
+<DIV id=news_l>
+<DIV id=news>
+<DIV id=news_t>
+<DIV id=Related_nr>
+	
+	{dede:arclist row='4'     imgwidth='140' imgheight='99'   }
+	
+<DIV id=Related_tp><A title=[field:fulltitle/]
+href="[field:arcurl/]" 
+target=_blank><IMG alt=[field:fulltitle/]
+src="[field:picname/]" 
+width=140 height=99></A>
+<P><A title=[field:fulltitle/] 
+href="[field:arcurl/]" 
+target=_blank>[field:title/]</A></P></DIV>
+
+{/dede:arclist}
+
+
+
+
+</DIV>
+<H1>{dede:field.title/}</H1>
+<P><SPAN id=news_time>{dede:field.pubdate function="MyDate('Y-m-d H:i',@me)"/}来源：{dede:field.source/} 
+浏览数：<SPAN id=Hits><script src="{dede:field name='phpurl'/}/count.php?view=yes&aid={dede:field name='id'/}&mid={dede:field name='mid'/}"type='text/javascript' language="javascript"></script></SPAN></SPAN>
+
+ </P></DIV>
+
+
+<DIV id=news_main>
+{dede:field.body/}
+
+
+  <div class="dede_pages">
+   <ul class="pagelist">
+    {dede:pagebreak/}
+   </ul>
+  </div></DIV>
+<DIV id=zt_bd><STRONG>友情小提示：</STRONG>百度搜一下 <A 
+style="COLOR: #f00; FONT-SIZE: 14px; TEXT-DECORATION: underline" 
+href="http://www.baidu.com/s?bs=%B4%F3%CE%E2%B8%E7&amp;f=8&amp;rsv_bp=1&amp;rsv_spt=3&amp;wd=%B4%F3%CE%E2%B8%E7%D3%E9%C0%D6&amp;inputT=1891" 
+target=_blank>{dede:global.cfg_webname/}</A> 就能快速找到本站噢，不喜欢记域名的朋友火速试一下</DIV></DIV>
+<DIV id=Related_n>
+<DIV id=Related_nr>
+
+</DIV></DIV>
+<DIV id=Related_n>
+<DIV id=Related_t></DIV>
+<DIV id=Related_nr>
+<DIV id=Related_tj>
+		{dede:arclist row='4'     imgwidth='130' imgheight='99'   }
+	
+<DIV class=cLeft><A title=[field:fulltitle/]
+href="[field:arcurl/]" 
+target=_blank><IMG alt=[field:fulltitle/]
+src="[field:picname/]" 
+width=140 height=99></A>
+<P><A title=[field:fulltitle/] 
+href="[field:arcurl/]" 
+target=_blank>[field:title/]</A></P></DIV>
+{/dede:arclist}
+
+
+
+
+</DIV>
+<DIV id=Related_news>
+<UL>
+	
+			{dede:arclist row='11'      }
+	
+  <LI><A title=[field:fulltitle/] 
+  href="[field:arcurl/]" 
+  target=_blank>[field:title/]</A></LI>
+  {/dede:arclist}
+  
+  </UL></DIV></DIV></DIV>
+<DIV id=Related_n>
+<DIV id=Related_t1></DIV>
+<DIV id=Related_nr>
+	
+		{dede:arclist row='16'     imgwidth='140' imgheight='99'   }
+	
+<DIV id=Related_tp><A title=[field:fulltitle/]
+href="[field:arcurl/]" 
+target=_blank><IMG alt=[field:fulltitle/]
+src="[field:picname/]" 
+width=140 height=99></A>
+<P><A title=[field:fulltitle/] 
+href="[field:arcurl/]" 
+target=_blank>[field:title/]</A></P></DIV>
+
+{/dede:arclist}
+
+
+
+
+
+
+</DIV></DIV></DIV>
+<DIV id=news_r>
+<DIV style="MARGIN-TOP: 0px" id=news_ad1>
+<SCRIPT type=text/javascript>mm_ads("ad11");</SCRIPT>
+</DIV>
+<DIV id=news_pic>
+<DIV id=news_tt>内容聚焦</DIV>
+<DIV class=bd>
+<UL>
+	
+		{dede:arclist row='4'     imgwidth='140' imgheight='99'   }
+  <LI><A title=[field:fulltitle/]
+href="[field:arcurl/]" 
+target=_blank><IMG alt=[field:fulltitle/]
+src="[field:picname/]" 
+width=140 height=99></A>
+
+<A id=twtj 
+  href="[field:arcurl/]" 
+  target=_blank>[field:title/]</A></LI>
+  {/dede:arclist}
+  
+  
+  
+  </UL></DIV></DIV>
+<DIV id=news_news>
+<DIV id=news_tt>最新更新</DIV>
+
+{dede:arclist row='1'        flag ='h' }
+<H3><A title="[field:title/]" 
+href="[field:arcurl/]" 
+target=_blank>[field:title/]</A></H3>
+
+{/dede:arclist}
+<UL>
+	{dede:arclist row='5'       orderby ='pubdate'}
+  <LI>·<A title=[field:fulltitle/]
+  href="[field:arcurl/]" 
+  target=_blank>[field:title/]</A></LI>
+  {/dede:arclist}
+  </UL>
+  
+  {dede:arclist row='1'        flag ='h' }
+<H3><A title="[field:title/]" 
+href="[field:arcurl/]" 
+target=_blank>[field:title/]</A></H3>
+
+{/dede:arclist}
+
+
+<UL>
+	{dede:arclist row='5'       orderby ='pubdate'}
+  <LI>·<A title=[field:fulltitle/]
+  href="[field:arcurl/]" 
+  target=_blank>[field:title/]</A></LI>
+  {/dede:arclist}
+  </UL>
+  </DIV>
+<DIV style="MARGIN-TOP: 0px" id=news_ad1>
+<SCRIPT type=text/javascript>mm_ads("ad12");</SCRIPT>
+</DIV>
+<SCRIPT>
+<!--
+/*第一种形式 第二种形式 更换显示样式*/
+function setTab(name,cursel,n){
+for(i=1;i<=n;i++){
+var menu=document.getElementById(name+i);
+var con=document.getElementById("con_"+name+"_"+i);
+menu.className=i==cursel?"hover":"";
+con.style.display=i==cursel?"block":"none";
+}
+}
+//-->
+</SCRIPT>
+
+<DIV id=Tab1>
+<DIV class=Menubox>
+<UL>
+  <LI style="WIDTH: 82px; COLOR: #1e1e1e; FONT-WEIGHT: bold">热点排行</LI>
+  <LI id=one1 class=hover onmouseover="setTab('one',1,4)">娱乐</LI>
+  <LI id=one2 onmouseover="setTab('one',2,4)">军事</LI>
+  <LI id=one3 onmouseover="setTab('one',3,4)">生活</LI>
+  <LI id=one4 onmouseover="setTab('one',4,4)">社会</LI></UL></DIV>
+<DIV class=Contentbox>
+<DIV id=con_one_1 class=hover>
+<UL>
+	
+		{dede:arclist row='10'       orderby ='pubdate'}
+  <LI><A title=[field:fulltitle/]
+  href="[field:arcurl/]" 
+  target=_blank>[field:title/]</A> </LI>
+  {/dede:arclist}
+  
+  </UL></DIV>
+<DIV style="DISPLAY: none" id=con_one_2>
+<UL>
+	
+		{dede:arclist row='10'       orderby ='pubdate'}
+  <LI><A title=[field:fulltitle/]
+  href="[field:arcurl/]" 
+  target=_blank>[field:title/]</A> </LI>
+  {/dede:arclist}
+  
+  </UL></DIV>
+<DIV style="DISPLAY: none" id=con_one_3>
+<UL>
+	
+		{dede:arclist row='10'       orderby ='pubdate'}
+  <LI><A title=[field:fulltitle/]
+  href="[field:arcurl/]" 
+  target=_blank>[field:title/]</A> </LI>
+  {/dede:arclist}
+  
+  </UL></DIV>
+<DIV style="DISPLAY: none" id=con_one_4>
+<UL>
+	
+		{dede:arclist row='10'       orderby ='pubdate'}
+  <LI><A title=[field:fulltitle/]
+  href="[field:arcurl/]" 
+  target=_blank>[field:title/]</A> </LI>
+  {/dede:arclist}
+  
+  </UL></DIV></DIV></DIV>
+<DIV id=news_pic>
+<DIV id=news_tt>视觉焦点</DIV>
+<DIV class=bd>
+<UL>
+	
+		{dede:arclist row='4'     imgwidth='140' imgheight='99'   }
+  <LI><A title=[field:fulltitle/]
+href="[field:arcurl/]" 
+target=_blank><IMG alt=[field:fulltitle/]
+src="[field:picname/]" 
+width=140 height=99></A>
+
+<A id=twtj 
+  href="[field:arcurl/]" 
+  target=_blank>[field:title/]</A></LI>
+  {/dede:arclist}
+  
+  
+  
+  </UL></DIV>
+  
+  
+  </DIV><!---<div id="news_ad1"></div>---></DIV>
+<DIV class=clear></DIV></DIV>
+<DIV id=links>
+<DIV id=links_t></DIV>
+<DIV id=links_main><A 
+href="{dede:global.cfg_basehost/}/xinwenzixun/shehuiwanxiang/">社会万象</A> <A 
+href="{dede:global.cfg_basehost/}/xinwenzixun/huanqiushiye/">环球视野</A> <A 
+href="{dede:global.cfg_basehost/}/xinwenzixun/qiwenshi/">奇闻轶事</A> <A 
+href="{dede:global.cfg_basehost/}/xinwenzixun/jingjiguancha/">经济观察</A> <A 
+href="{dede:global.cfg_basehost/}/xinwenzixun/jiuwenmishi/">旧闻秘史</A> <A 
+href="{dede:global.cfg_basehost/}/junshipindao/junshiguancha/">军事观察</A> <A 
+href="{dede:global.cfg_basehost/}/junshipindao/wuqizhuangbei/">武器装备</A> <A 
+href="{dede:global.cfg_basehost/}/junshipindao/lishichenfu/">历史沉浮</A> <A 
+href="{dede:global.cfg_basehost/}/junshipindao/sanjundongtai/">三军动态</A> <A 
+href="{dede:global.cfg_basehost/}/junshipindao/junshituku/">军事图库</A> <A 
+href="{dede:global.cfg_basehost/}/yulequan/yulebagua/">娱乐八卦</A> <A 
+href="{dede:global.cfg_basehost/}/yulequan/dalumingxing/">大陆明星</A> <A 
+href="{dede:global.cfg_basehost/}/yulequan/rihanmingxing/">日韩明星</A> <A 
+href="{dede:global.cfg_basehost/}/yulequan/oumeimingxing/">欧美明星</A> <A 
+href="{dede:global.cfg_basehost/}/gushihui/minshengwenzhai/">民生文摘</A> <A 
+href="{dede:global.cfg_basehost/}/gushihui/qingganhunyin/">情感婚姻</A> <A 
+href="{dede:global.cfg_basehost/}/gushihui/youmogaoxiao/">幽默搞笑</A> <A 
+href="{dede:global.cfg_basehost/}/gushihui/haiwaixingyun/">海外星云</A> <A 
+href="{dede:global.cfg_basehost/}/shishangshenghuo/chengshichaoliu/">城市潮流</A> <A 
+href="{dede:global.cfg_basehost/}/shishangshenghuo/jujialvyou/">居家旅游</A> <A 
+href="{dede:global.cfg_basehost/}/shishangshenghuo/liangxingjiankang/">两性健康</A> <A 
+href="{dede:global.cfg_basehost/}/shishangshenghuo/shehuamingpin/">奢华名品</A> <A 
+href="{dede:global.cfg_basehost/}/shishangshenghuo/meirongfushi/">美容服饰</A> <A 
+href="{dede:global.cfg_basehost/}/kejishuma">数码科技</A> <A 
+href="{dede:global.cfg_basehost/}/kejishuma/ITshijie/">I T 视界</A> <A 
+href="{dede:global.cfg_basehost/}/kejishuma/shumaqianyan/">数码前沿</A> <A 
+href="{dede:global.cfg_basehost/}/kejishuma/hulianwang/">互 联 网</A> <A 
+href="{dede:global.cfg_basehost/}/kejishuma/xinjingji/">新 经 济</A> </DIV></DIV>
+
+
+
+{dede:include filename="footer.htm"/}
+
+</BODY></HTML>

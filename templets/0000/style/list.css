@@ -1,0 +1,613 @@
+BODY {
+	MARGIN: 0px; FONT-FAMILY: "????"; FONT-SIZE: 12px
+}
+IMG {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; BORDER-TOP: 0px; BORDER-RIGHT: 0px
+}
+DIV {
+	PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; LIST-STYLE-IMAGE: none; PADDING-TOP: 0px
+}
+UL {
+	PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; LIST-STYLE-IMAGE: none; PADDING-TOP: 0px
+}
+LI {
+	PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; LIST-STYLE-IMAGE: none; PADDING-TOP: 0px
+}
+P {
+	PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; LIST-STYLE-IMAGE: none; PADDING-TOP: 0px
+}
+DL {
+	PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; LIST-STYLE-IMAGE: none; PADDING-TOP: 0px
+}
+DT {
+	PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; LIST-STYLE-IMAGE: none; PADDING-TOP: 0px
+}
+DD {
+	PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; LIST-STYLE-IMAGE: none; PADDING-TOP: 0px
+}
+FORM {
+	PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; LIST-STYLE-IMAGE: none; PADDING-TOP: 0px
+}
+INPUT {
+	PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; LIST-STYLE-IMAGE: none; PADDING-TOP: 0px
+}
+TEXTAREA {
+	PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; LIST-STYLE-IMAGE: none; PADDING-TOP: 0px
+}
+LABEL {
+	PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; LIST-STYLE-IMAGE: none; PADDING-TOP: 0px
+}
+H1 {
+	PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; LIST-STYLE-IMAGE: none; PADDING-TOP: 0px
+}
+H2 {
+	PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; LIST-STYLE-IMAGE: none; PADDING-TOP: 0px
+}
+H3 {
+	PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; LIST-STYLE-IMAGE: none; PADDING-TOP: 0px
+}
+A {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #f33; CURSOR: hand; TEXT-DECORATION: underline
+}
+.clear {
+	CLEAR: both
+}
+.hidden {
+	DISPLAY: none
+}
+.clear {
+	CLEAR: both
+}
+#icontent A {
+	COLOR: #333
+}
+.w960 {
+	MARGIN: auto; WIDTH: 960px; CLEAR: both
+}
+#site_nav {
+	MARGIN: auto; WIDTH: 960px; CLEAR: both
+}
+#header {
+	MARGIN: auto; WIDTH: 960px; CLEAR: both
+}
+#site_nav {
+	MARGIN: auto; WIDTH: 960px; CLEAR: both
+}
+#nav {
+	MARGIN: auto; WIDTH: 960px; CLEAR: both
+}
+#sub_nav {
+	MARGIN: auto; WIDTH: 960px; CLEAR: both
+}
+#hot_nav {
+	MARGIN: auto; WIDTH: 960px; CLEAR: both
+}
+.wrap960 {
+	MARGIN: auto; WIDTH: 960px; CLEAR: both
+}
+#hot_nav {
+	MARGIN-BOTTOM: 10px
+}
+BODY {
+	BACKGROUND: url(../images/army.png) no-repeat
+}
+.site_navl {
+	BACKGROUND: url(../images/army.png) no-repeat
+}
+.site_navr {
+	BACKGROUND: url(../images/army.png) no-repeat
+}
+#nav {
+	BACKGROUND: url(../images/army.png) no-repeat
+}
+#sub_nav {
+	BACKGROUND: url(../images/army.png) no-repeat
+}
+.sub_navl {
+	BACKGROUND: url(../images/army.png) no-repeat
+}
+.sub_navm {
+	BACKGROUND: url(../images/army.png) no-repeat
+}
+#hot_nav {
+	BACKGROUND: url(../images/army.png) no-repeat
+}
+#nav LI {
+	BACKGROUND: url(../images/nav_lin.png) no-repeat
+}
+.new_a {
+	BACKGROUND: url(../images/nav_lin.png) no-repeat
+}
+BODY {
+	BACKGROUND-REPEAT: repeat-x; BACKGROUND-POSITION: 0px -770px
+}
+#site_nav {
+	HEIGHT: 29px; OVERFLOW: hidden
+}
+.site_navl {
+	MARGIN-TOP: 6px; HEIGHT: 16px
+}
+.site_navr {
+	MARGIN-TOP: 6px; HEIGHT: 16px
+}
+.site_navl {
+	PADDING-LEFT: 25px; BACKGROUND-POSITION: -940px -1px; FLOAT: left; COLOR: #333
+}
+.site_navr {
+	PADDING-LEFT: 15px; BACKGROUND-POSITION: -940px -44px; FLOAT: right; COLOR: #666
+}
+#site_nav A {
+	MARGIN: 0px 5px
+}
+.site_navr CODE {
+	MARGIN: 0px 5px
+}
+#site_nav .site_navl A:link {
+	COLOR: #aa0000
+}
+#site_nav .site_navl A:visited {
+	COLOR: #aa0000
+}
+.site_navr CODE {
+	CURSOR: pointer
+}
+#header {
+	HEIGHT: 72px; OVERFLOW: hidden
+}
+.logocss {
+	MARGIN-TOP: 4px; WIDTH: 370px; BACKGROUND: url(../images/logo.gif) no-repeat; FLOAT: left; HEIGHT: 66px
+}
+.logocss A {
+	TEXT-INDENT: -999em; DISPLAY: block; HEIGHT: 66px; OVERFLOW: hidden
+}
+.top_bananer {
+	MARGIN-TOP: 7px; FLOAT: right
+}
+#nav {
+	BACKGROUND-POSITION: 0px -80px
+}
+#nav {
+	HEIGHT: 46px; OVERFLOW: hidden
+}
+#nav UL {
+	HEIGHT: 46px; OVERFLOW: hidden
+}
+#nav A {
+	FLOAT: left; OVERFLOW: hidden
+}
+#nav LI {
+	FLOAT: left; OVERFLOW: hidden
+}
+#nav LI {
+	PADDING-BOTTOM: 1px; PADDING-LEFT: 11px; PADDING-RIGHT: 10px; HEIGHT: 43px; MARGIN-LEFT: -2px; FONT-SIZE: 14px; FONT-WEIGHT: bold; PADDING-TOP: 2px
+}
+#nav A {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; HEIGHT: 29px; COLOR: #fff; PADDING-TOP: 14px
+}
+#nav A:hover {
+	BACKGROUND-COLOR: #cc0000; COLOR: #fff; TEXT-DECORATION: none
+}
+#sub_nav {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 5px; WIDTH: 955px; PADDING-RIGHT: 0px; BACKGROUND-POSITION: 0px -126px; HEIGHT: 50px; OVERFLOW: hidden; PADDING-TOP: 5px
+}
+#sub_nav A {
+	DISPLAY: inline-block; WHITE-SPACE: nowrap; MARGIN-RIGHT: 9px
+}
+.sub_navl {
+	LINE-HEIGHT: 1.8; PADDING-LEFT: 12px; FLOAT: left; HEIGHT: 39px; OVERFLOW: hidden
+}
+.sub_navm {
+	LINE-HEIGHT: 1.8; PADDING-LEFT: 12px; FLOAT: left; HEIGHT: 39px; OVERFLOW: hidden
+}
+.sub_navr {
+	LINE-HEIGHT: 1.8; PADDING-LEFT: 12px; FLOAT: left; HEIGHT: 39px; OVERFLOW: hidden
+}
+.sub_navl {
+	BACKGROUND-POSITION: 100% -226px
+}
+.sub_navm {
+	BACKGROUND-POSITION: 100% -226px
+}
+.sub_navl {
+	WIDTH: 325px
+}
+.sub_navm {
+	WIDTH: 270px
+}
+.sub_navr {
+	WIDTH: 320px
+}
+#hot_nav {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 12px; WIDTH: 936px; PADDING-RIGHT: 12px; BACKGROUND-POSITION: 0px -181px; HEIGHT: 23px; CLEAR: both; PADDING-TOP: 8px
+}
+.new_keys {
+	FLOAT: left; COLOR: #d6d8f1
+}
+.new_keys STRONG {
+	COLOR: #144ca1; FONT-WEIGHT: normal
+}
+.new_keys A {
+	MARGIN: 0px 8px; COLOR: #144ca1
+}
+.new_a {
+	PADDING-LEFT: 24px; BACKGROUND-POSITION: 0px -66px; FLOAT: right
+}
+#site_nav SPAN.guz {
+	PADDING-LEFT: 25px; DISPLAY: inline-block; BACKGROUND: url(../images/icon1.jpg) no-repeat 0px -4px
+}
+#site_nav SPAN.guz A:link {
+	COLOR: #aa0000
+}
+#site_nav SPAN.guz A:visited {
+	COLOR: #aa0000
+}
+.container {
+	MARGIN: 10px auto; WIDTH: 960px; OVERFLOW: hidden
+}
+.cleft {
+	WIDTH: 290px; FLOAT: left
+}
+.cleft1 {
+	WIDTH: 720px; FLOAT: left
+}
+.cleft_f {
+	WIDTH: 290px; FLOAT: right
+}
+.cmiddle {
+	MARGIN: 0px 10px; WIDTH: 380px; FLOAT: left
+}
+.cmiddleb {
+	WIDTH: 677px; FLOAT: left
+}
+.cright {
+	WIDTH: 290px; FLOAT: right; OVERFLOW: hidden
+}
+.cright1 {
+	WIDTH: 640px; FLOAT: right
+}
+.show {
+	BORDER-BOTTOM: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; PADDING-BOTTOM: 4px; PADDING-LEFT: 4px; PADDING-RIGHT: 4px; HEIGHT: 262px; BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #ccc 1px solid; PADDING-TOP: 4px
+}
+#focus_photo {
+	POSITION: relative; WIDTH: 280px; HEIGHT: 262px; FONT-SIZE: 12px
+}
+#focus_photo_pic {
+	BORDER-BOTTOM: 0px; FILTER: blendTrans(Duration=1); BORDER-LEFT: 0px; WIDTH: 280px; HEIGHT: 200px; BORDER-TOP: 0px; BORDER-RIGHT: 0px
+}
+#focus_photo_title {
+	Z-INDEX: 1; POSITION: absolute; TEXT-ALIGN: center; WIDTH: 100%; BOTTOM: 0px; HEIGHT: 60px; PADDING-TOP: 5px
+}
+#focus_photo_title DIV {
+	LINE-HEIGHT: 24px; FONT-SIZE: 12px; FONT-WEIGHT: normal
+}
+#focus_photo_title P {
+	LINE-HEIGHT: 20px; COLOR: #000; FONT-SIZE: 12px; FONT-WEIGHT: normal
+}
+#focus_photo_title A {
+	COLOR: #314343; FONT-SIZE: 12px; FONT-WEIGHT: normal; TEXT-DECORATION: none
+}
+#focus_photo_page {
+	Z-INDEX: 2; POSITION: absolute; BOTTOM: 10px; RIGHT: 10px
+}
+#focus_photo_page A {
+	TEXT-ALIGN: center; LINE-HEIGHT: 13px; WIDTH: 20px; BACKGROUND: #cacbcf; FLOAT: right; HEIGHT: 15px; COLOR: #333335; MARGIN-LEFT: 1px; TEXT-DECORATION: none; PADDING-TOP: 5px
+}
+#focus_photo_page A:hover {
+	BACKGROUND: #a30003; COLOR: #fff
+}
+#focus_photo_page A.on {
+	BACKGROUND: #a30003; COLOR: #fff
+}
+.hotimg {
+	BORDER-BOTTOM: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; MARGIN-TOP: 10px; HEIGHT: 285px; BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #ccc 1px solid
+}
+.hotimg H2 {
+	BORDER-BOTTOM: #ccc 1px dashed; TEXT-ALIGN: right; LINE-HEIGHT: 28px; PADDING-RIGHT: 10px; BACKGROUND: url(http://www.qianyan001.com/templates/images/index/g5.gif); HEIGHT: 28px; FONT-SIZE: 12px; FONT-WEIGHT: normal
+}
+.hotimg H2 .ioca {
+	WIDTH: 20px; BACKGROUND: url(http://www.qianyan001.com/templates/images/index/g7.gif); HEIGHT: 28px
+}
+.hotimg H2 SPAN {
+	FLOAT: left; COLOR: #000; FONT-SIZE: 14px; FONT-WEIGHT: bold
+}
+.hotimg A {
+	COLOR: #000
+}
+.hotimg A:hover {
+	COLOR: #f00
+}
+.hotimg UL {
+	MARGIN-TOP: 10px
+}
+.hotimg UL LI {
+	LINE-HEIGHT: 24px; PADDING-LEFT: 10px; WIDTH: 275px; FLOAT: left; FONT-SIZE: 14px; OVERFLOW: hidden
+}
+.hotimg UL LI A {
+	COLOR: #224e88
+}
+.hotimg UL LI P {
+	TEXT-ALIGN: center; LINE-HEIGHT: 24px
+}
+.hotimg_ff {
+	BORDER-BOTTOM: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; MARGIN-TOP: 10px; HEIGHT: 325px; BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #ccc 1px solid
+}
+.hotimg_ff H2 {
+	BORDER-BOTTOM: #ccc 1px dashed; TEXT-ALIGN: right; LINE-HEIGHT: 28px; PADDING-RIGHT: 10px; BACKGROUND: url(http://www.qianyan001.com/templates/images/index/g5.gif); HEIGHT: 28px; FONT-SIZE: 12px; FONT-WEIGHT: normal
+}
+.hotimg_ff H2 .ioca {
+	WIDTH: 20px; BACKGROUND: url(http://www.qianyan001.com/templates/images/index/g7.gif); HEIGHT: 28px
+}
+.hotimg_ff H2 SPAN {
+	FLOAT: left; COLOR: #000; FONT-SIZE: 14px; FONT-WEIGHT: bold
+}
+.hotimg_ff A {
+	COLOR: #000
+}
+.hotimg_ff A:hover {
+	COLOR: #f00
+}
+.hotimg_ff UL {
+	MARGIN-TOP: 10px
+}
+.hotimg_ff UL LI {
+	LINE-HEIGHT: 28px; PADDING-LEFT: 10px; WIDTH: 270px; FLOAT: left; FONT-SIZE: 12px
+}
+.hotimg_ff UL LI A {
+	COLOR: #666666
+}
+.hotimg_ff UL LI P {
+	TEXT-ALIGN: center; LINE-HEIGHT: 24px
+}
+.jstwf {
+	BORDER-BOTTOM: #e1e1e1 1px dashed; MARGIN: 6px 9px 3px; HEIGHT: 124px
+}
+.jstwf SPAN {
+	LINE-HEIGHT: 30px; DISPLAY: block; HEIGHT: 30px; OVERFLOW: hidden; FONT-WEIGHT: bold
+}
+.jstwf SPAN A {
+	COLOR: #000
+}
+.jstwf DL {
+	HEIGHT: 94px; OVERFLOW: hidden
+}
+.jstwf DL DT {
+	BORDER-BOTTOM: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; PADDING-BOTTOM: 2px; PADDING-LEFT: 2px; WIDTH: 112px; PADDING-RIGHT: 2px; FLOAT: left; HEIGHT: 80px; BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #ccc 1px solid; PADDING-TOP: 2px
+}
+.jstwf DL DT IMG {
+	DISPLAY: block
+}
+.jstwf DL DD {
+	LINE-HEIGHT: 19px; PADDING-LEFT: 8px; WIDTH: 144px; FLOAT: left; COLOR: #999
+}
+.jstwf DL DD A {
+	COLOR: #be0002
+}
+#footer {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 12px; LINE-HEIGHT: 2; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; COLOR: #333; PADDING-TOP: 12px
+}
+#footer A {
+	MARGIN: 0px 3px
+}
+.ConTent {
+	MARGIN: 10px auto; WIDTH: 960px
+}
+.TopBox {
+	MARGIN: 10px auto; WIDTH: 960px
+}
+.HisBox {
+	MARGIN: 10px auto; WIDTH: 960px
+}
+.HisBox .Left {
+	WIDTH: 330px; FLOAT: left
+}
+.HisBox .Left .Focus {
+	BORDER-BOTTOM: #dcdcdc 1px solid; BORDER-LEFT: #dcdcdc 1px solid; PADDING-BOTTOM: 2px; PADDING-LEFT: 2px; WIDTH: 324px; PADDING-RIGHT: 2px; HEIGHT: 254px; BORDER-TOP: #dcdcdc 1px solid; BORDER-RIGHT: #dcdcdc 1px solid; PADDING-TOP: 2px
+}
+.HisBox .Left .H1 {
+	BORDER-BOTTOM: #dcdcdc 1px dashed; BORDER-LEFT: #dcdcdc 1px solid; LINE-HEIGHT: 28px; WIDTH: 328px; BACKGROUND: url(http://www.qianyan001.com/templates/images/index/His_hbg.gif) repeat-x left bottom; HEIGHT: 28px; BORDER-RIGHT: #dcdcdc 1px solid; PADDING-TOP: 5px
+}
+.HisBox .Left .H1 UL LI {
+	PADDING-LEFT: 20px; WIDTH: 308px; BACKGROUND: url(http://www.qianyan001.com/templates/images/index/His_ico1.gif) no-repeat 9px 9px; FLOAT: left; HEIGHT: 28px; COLOR: #333; FONT-SIZE: 14px; FONT-WEIGHT: bold
+}
+.HisBox .Left .H1 UL LI .span1 {
+	WIDTH: 258px; FLOAT: left
+}
+.HisBox .Left .H1 UL LI .span2 {
+	TEXT-ALIGN: center; WIDTH: 50px; FLOAT: left; FONT-SIZE: 12px; FONT-WEIGHT: normal
+}
+.HisBox .Left .H1 UL LI .span2 A {
+	COLOR: #333; FONT-SIZE: 12px; FONT-WEIGHT: normal
+}
+.HisBox .Left .H1 UL LI .span2 A:hover {
+	COLOR: #333; FONT-SIZE: 12px; FONT-WEIGHT: normal
+}
+.HisBox .Left .News {
+	BORDER-BOTTOM: #dcdcdc 1px solid; BORDER-LEFT: #dcdcdc 1px solid; PADDING-BOTTOM: 5px; PADDING-LEFT: 10px; WIDTH: 308px; PADDING-RIGHT: 10px; HEIGHT: 148px; BORDER-TOP: medium none; BORDER-RIGHT: #dcdcdc 1px solid; PADDING-TOP: 5px
+}
+.HisBox .Left .News UL LI {
+	LINE-HEIGHT: 28px; WIDTH: 308px; FLOAT: left
+}
+.HisBox .Left .News UL LI A {
+	COLOR: #333; FONT-SIZE: 14px
+}
+.HisBox .Left .News UL LI A:hover {
+	COLOR: #c00; FONT-SIZE: 14px
+}
+.HisBox .Left .News1 {
+	BORDER-BOTTOM: #dcdcdc 1px solid; BORDER-LEFT: #dcdcdc 1px solid; PADDING-BOTTOM: 10px; PADDING-LEFT: 10px; WIDTH: 308px; PADDING-RIGHT: 10px; FLOAT: left; BORDER-TOP: medium none; BORDER-RIGHT: #dcdcdc 1px solid; PADDING-TOP: 10px
+}
+.HisBox .Left .News1 UL LI {
+	WIDTH: 280px; FLOAT: left; MARGIN-LEFT: 14px; _display: inline
+}
+.HisBox .Left .News1 UL LI .p1 {
+	WIDTH: 280px; FLOAT: left; HEIGHT: 200px
+}
+.HisBox .Left .News1 UL LI .p1 A {
+	DISPLAY: block
+}
+.HisBox .Left .News1 UL LI .p2 {
+	TEXT-ALIGN: center; LINE-HEIGHT: 30px; WIDTH: 280px; FLOAT: left; HEIGHT: 41px
+}
+.HisBox .Left .News1 UL LI .p2 A {
+	COLOR: #333
+}
+.HisBox .Left .News1 UL LI .p2 A:hover {
+	COLOR: #c00
+}
+.HisBox .Mid {
+	WIDTH: 400px; FLOAT: left; HEIGHT: 439px; OVERFLOW: hidden; PADDING-TOP: 15px
+}
+.HisBox .Mid H1 {
+	TEXT-ALIGN: center; LINE-HEIGHT: 28px; MARGIN: 0px auto; WIDTH: 360px; HEIGHT: 28px; FONT-SIZE: 14px
+}
+.HisBox .Mid1 {
+	WIDTH: 455px; FLOAT: left; OVERFLOW: hidden
+}
+.HisBox .Mid1 .news1 {
+	LINE-HEIGHT: 28px; MARGIN: 0px auto; WIDTH: 430px; HEIGHT: 28px
+}
+.HisBox .Mid1 .news1 H2 {
+	BORDER-BOTTOM: #ccc 1px dashed; TEXT-ALIGN: right; LINE-HEIGHT: 28px; PADDING-RIGHT: 10px; BACKGROUND: url(http://www.qianyan001.com/templates/images/index/g5.gif); HEIGHT: 28px; FONT-SIZE: 12px; BORDER-TOP: #ccc 1px solid; FONT-WEIGHT: normal
+}
+.HisBox .Mid1 .news1 H2 .ioca {
+	WIDTH: 20px; BACKGROUND: url(http://www.qianyan001.com/templates/images/index/g7.gif); HEIGHT: 28px
+}
+.HisBox .Mid1 .news1 H2 SPAN {
+	FLOAT: left; COLOR: #000; FONT-SIZE: 14px; FONT-WEIGHT: bold
+}
+.HisBox .Mid1 .news2 {
+	MARGIN: 0px auto; WIDTH: 430px; HEIGHT: 1022px; PADDING-TOP: 5px
+}
+.HisBox .Mid1 .news2 UL {
+	BORDER-BOTTOM: #d8d8d8 1px dashed; PADDING-BOTTOM: 10px; PADDING-LEFT: 0px; WIDTH: 430px; PADDING-RIGHT: 0px; FLOAT: left; COLOR: #214e87; FONT-SIZE: 14px; PADDING-TOP: 10px
+}
+.HisBox .Mid1 .news2 UL .topic {
+	PADDING-BOTTOM: 3px; LINE-HEIGHT: 22px; PADDING-LEFT: 0px; WIDTH: 350px; PADDING-RIGHT: 0px; FLOAT: left; PADDING-TOP: 3px
+}
+.HisBox .Mid1 .news2 UL .time {
+	TEXT-ALIGN: left; PADDING-BOTTOM: 3px; LINE-HEIGHT: 22px; PADDING-LEFT: 0px; WIDTH: 80px; PADDING-RIGHT: 0px; FLOAT: left; PADDING-TOP: 3px
+}
+.HisBox .Mid1 .news2 UL .topic A {
+	COLOR: #214e87; FONT-SIZE: 14px
+}
+.HisBox .Mid1 .news2 UL .topic A:hover {
+	COLOR: #214e87; FONT-SIZE: 14px
+}
+.HisBox .Mid1 .page {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 5px; MARGIN: 0px auto; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; PADDING-TOP: 5px
+}
+.HisBox .Mid1 .page A {
+	BORDER-BOTTOM: #35484c 1px solid; TEXT-ALIGN: center; BORDER-LEFT: #35484c 1px solid; PADDING-BOTTOM: 2px; LINE-HEIGHT: 1em; MARGIN: 0px 3px; PADDING-LEFT: 8px; PADDING-RIGHT: 8px; BACKGROUND: #fff; COLOR: #333; BORDER-TOP: #35484c 1px solid; BORDER-RIGHT: #35484c 1px solid; PADDING-TOP: 5px
+}
+.HisBox .Mid1 .page .page_bg {
+	BORDER-BOTTOM: #35484c 1px solid; BORDER-LEFT: #35484c 1px solid; BACKGROUND: #35484c; COLOR: #fff; BORDER-TOP: #35484c 1px solid; BORDER-RIGHT: #35484c 1px solid
+}
+.HisBox .Mid1 .page A:hover {
+	BORDER-BOTTOM: #35484c 1px solid; TEXT-ALIGN: center; BORDER-LEFT: #35484c 1px solid; PADDING-BOTTOM: 2px; MARGIN: 0px 3px; PADDING-LEFT: 8px; PADDING-RIGHT: 8px; BACKGROUND: #35484c; COLOR: #fff; BORDER-TOP: #35484c 1px solid; BORDER-RIGHT: #35484c 1px solid; TEXT-DECORATION: none; PADDING-TOP: 5px
+}
+.HisBox .Mid1 .page SPAN {
+	BORDER-BOTTOM: #35484c 1px solid; TEXT-ALIGN: center; BORDER-LEFT: #35484c 1px solid; PADDING-BOTTOM: 2px; LINE-HEIGHT: 1em; MARGIN: 0px 3px; PADDING-LEFT: 8px; PADDING-RIGHT: 8px; BACKGROUND: #35484c; COLOR: #fff; BORDER-TOP: #35484c 1px solid; BORDER-RIGHT: #35484c 1px solid; PADDING-TOP: 5px
+}
+.Mid1page {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 6px; MARGIN: 3px auto 0px; PADDING-LEFT: 6px; WIDTH: 978px; PADDING-RIGHT: 6px; HEIGHT: 15px; OVERFLOW: hidden; PADDING-TOP: 6px
+}
+.Mid1page A {
+	BORDER-BOTTOM: #35484c 1px solid; TEXT-ALIGN: center; BORDER-LEFT: #35484c 1px solid; PADDING-BOTTOM: 2px; LINE-HEIGHT: 100%; MARGIN: 0px 3px; PADDING-LEFT: 8px; PADDING-RIGHT: 8px; BACKGROUND: #fff; COLOR: #333; BORDER-TOP: #35484c 1px solid; BORDER-RIGHT: #35484c 1px solid; PADDING-TOP: 3px
+}
+.Mid1page A:hover {
+	BORDER-BOTTOM: #35484c 1px solid; TEXT-ALIGN: center; BORDER-LEFT: #35484c 1px solid; PADDING-BOTTOM: 2px; LINE-HEIGHT: 100%; MARGIN: 0px 3px; PADDING-LEFT: 8px; PADDING-RIGHT: 8px; BACKGROUND: #35484c; COLOR: #fff; BORDER-TOP: #35484c 1px solid; BORDER-RIGHT: #35484c 1px solid; TEXT-DECORATION: none; PADDING-TOP: 3px
+}
+.bigpho {
+	BORDER-BOTTOM: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; MARGIN: 10px auto; WIDTH: 958px; OVERFLOW: hidden; BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #ccc 1px solid
+}
+.bigpho H2 {
+	BORDER-BOTTOM: #ccc 1px solid; LINE-HEIGHT: 33px; PADDING-RIGHT: 10px; BACKGROUND: #f7f7f7; HEIGHT: 33px; FONT-SIZE: 12px; FONT-WEIGHT: normal
+}
+.bigpho H2 .ioca {
+	WIDTH: 33px; BACKGROUND: url(http://www.qianyan001.com/templates/images/index/g12.gif); HEIGHT: 33px
+}
+.bigpho H2 SPAN {
+	FLOAT: left; COLOR: #000; FONT-SIZE: 14px; FONT-WEIGHT: bold
+}
+.bigpho H2 .tab1 {
+	PADDING-RIGHT: 10px; CURSOR: pointer
+}
+.bigpho H2 .tab2 {
+	PADDING-RIGHT: 10px; CURSOR: pointer
+}
+.bigpho H2 .tab2 {
+	FONT-WEIGHT: normal
+}
+.bigpho UL {
+	MARGIN: 15px 0px 0px 2px
+}
+.bigpho UL LI {
+	PADDING-LEFT: 20px; WIDTH: 214px; FLOAT: left; HEIGHT: 170px
+}
+.bigpho UL LI IMG {
+	BORDER-BOTTOM: #dcdcdc 1px solid; BORDER-LEFT: #dcdcdc 1px solid; PADDING-BOTTOM: 5px; PADDING-LEFT: 5px; WIDTH: 200px; PADDING-RIGHT: 5px; HEIGHT: 120px; BORDER-TOP: #dcdcdc 1px solid; BORDER-RIGHT: #dcdcdc 1px solid; PADDING-TOP: 5px
+}
+.bigpho UL LI P {
+	TEXT-ALIGN: center; PADDING-TOP: 8px
+}
+.bigpho UL LI P A {
+	COLOR: #333
+}
+.ff_right {
+	BORDER-BOTTOM: #dddddd 1px solid; BORDER-LEFT: #dddddd 1px solid; WIDTH: 200px; BACKGROUND: #e1e9eb; FLOAT: right; HEIGHT: 1044px; OVERFLOW: hidden; BORDER-TOP: #dddddd 1px solid; BORDER-RIGHT: #dddddd 1px solid
+}
+.ff_right H2 {
+	TEXT-ALIGN: left; LINE-HEIGHT: 32px; PADDING-LEFT: 10px; HEIGHT: 32px; COLOR: #506d73; FONT-SIZE: 14px; FONT-WEIGHT: normal
+}
+.ff_right UL LI {
+	PADDING-LEFT: 22px; WIDTH: 168px; HEIGHT: 168px; OVERFLOW: hidden
+}
+.ff_right UL LI P {
+	TEXT-ALIGN: center; LINE-HEIGHT: 22px; WIDTH: 168px; COLOR: #343434
+}
+.ff_right UL LI P A {
+	COLOR: #343434
+}
+.dede_pages{
+}
+.dede_pages ul{
+	float:left;
+	padding:12px 0px 12px 16px;
+}
+.dede_pages ul li{
+	float:left;
+	font-family:Tahoma;
+	line-height:17px;
+	margin-right:6px;
+	border:1px solid #E9E9E9;
+}
+.dede_pages ul li a{
+	float:left;
+	padding:2px 4px 2px;
+	color:#555;
+	display:block;
+}
+.dede_pages ul li a:hover{
+	color:#690;
+	text-decoration:none;
+	padding:2px 4px 2px;
+}
+.dede_pages ul li.thisclass,
+.dede_pages ul li.thisclass a,.pagebox ul li.thisclass a:hover{
+	background-color:#F8F8F8;
+	padding:2px 4px 2px;
+	font-weight:bold;
+}
+.dede_pages .pageinfo{
+	line-height:21px;
+	padding:12px 10px 12px 16px;
+	color:#999;
+}
+.dede_pages .pageinfo strong{
+	color:#555;
+	font-weight:normal;
+	margin:0px 2px;
+}

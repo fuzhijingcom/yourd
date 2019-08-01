@@ -1,0 +1,305 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+
+<HTML xmlns="http://www.w3.org/1999/xhtml"><HEAD>
+<TITLE>{dede:global.cfg_webname/}</TITLE>
+<META content="text/html; charset=gb2312" http-equiv=Content-Type>
+<META name=keywords content={dede:field name='keywords'/}>
+<META name=description content={dede:field name='description'  function='html2text(@me)'/}>
+
+
+<LINK rel=stylesheet type=text/css href="{dede:global.cfg_templets_skin/}/style/list.css">
+<SCRIPT type=text/javascript src="{dede:global.cfg_templets_skin/}/style/js.js"></SCRIPT>
+
+<SCRIPT type=text/javascript src="{dede:global.cfg_templets_skin/}/style//common_v.js"></SCRIPT>
+
+<SCRIPT type=text/javascript src="{dede:global.cfg_templets_skin/}/style/all.js"></SCRIPT>
+
+
+
+
+<META name=GENERATOR content="MSHTML 8.00.6001.18702"></HEAD>
+<BODY>
+	
+	{dede:include filename="head.htm"/}
+	
+	
+<DIV class=w960>
+
+</DIV>
+<DIV class=HisBox><!-- left -->
+<DIV class=cleft><!--左-->
+<DIV class=show>
+<DIV id=focus_photo>
+<DIV><A id=focus_photo_link href="军事频道%20-%20大吴哥娱乐网_files/junshipindao.htm" 
+target=_blank><IMG style="opacity: 1.1" id=focus_photo_pic alt="" 
+src="军事频道%20-%20大吴哥娱乐网_files/junshipindao.htm"></A></DIV>
+<DIV id=focus_photo_title></DIV>
+<DIV id=focus_photo_page></DIV></DIV>
+<SCRIPT type=text/javascript>
+function G(id){
+    return document.getElementById(id);
+} 
+var focus_photo_pic = G("focus_photo_pic");
+var focus_photo_title = G("focus_photo_title");
+var focus_photo_link = G("focus_photo_link");
+var focus_photo_page = G("focus_photo_page");
+var theTimer = null;
+var curNum = 0;
+var isIE = navigator.userAgent.toUpperCase().indexOf("MSIE") > 0;
+var photoPic = new Array();
+var photoTitle = new Array();
+var photoLink = new Array();
+var opa;
+var opaTimer = null;
+{dede:arclist row='3'     imgwidth='280' imgheight='200'  flag ='f' }
+photoPic.push("[field:picname/]");
+photoLink.push("[field:arcurl/]");
+photoTitle.push("<div>[field:title/]<div><p></p>");
+
+{/dede:arclist}
+
+
+function start(){
+    preLoadImages();
+    createPage();
+    play();
+}
+ 
+function preLoadImages(){
+    var images = new Array(); 
+    for(var i = 0; i < photoPic.length; i++){ 
+        images[i] = new Image(); 
+        images[i].src = photoPic[i];
+    }
+}
+function createPage(){
+    for(var i = photoPic.length-1; i >= 0 ; i--){
+        var a = document.createElement("A");
+        var txt = document.createTextNode(i+1); 
+        var n = i;
+        a.id = "focus_photo_page_" + i;
+        a.href = "javascript:changePic(" + i + ")";
+		a.onmouseover="changePic(" + i + ")";
+		a.target = '_self';
+		a.title = photoTitle[i];
+        a.appendChild(txt); 
+        focus_photo_page.appendChild(a);
+    }
+}
+        
+function playEffect(){ 
+    if (isIE){ 
+        focus_photo_pic.filters[0].apply(); 
+        focus_photo_pic.filters[0].play();
+    } else {
+        opa = 0.3;
+        focus_photo_pic.style.opacity = opa;
+        clearInterval(opaTimer);
+        opaTimer = setInterval("changeOpacity()",60);
+    }
+}
+ 
+function changeOpacity(){
+    if(opa < 1){
+        opa += 0.1;
+    }
+    focus_photo_pic.style.opacity = opa;
+}
+ 
+function changePic(n){
+    clearTimeout(theTimer);
+    curNum = n - 1;
+    nextPic();
+}
+ 
+function nextPic(){ 
+    if(curNum < photoPic.length - 1){
+        curNum++;
+    } else {
+        curNum = 0; 
+    }
+    playEffect();
+    play(curNum);
+} 
+ 
+function play(n){ 
+    if(!n) n = 0;
+    focus_photo_pic.src = photoPic[n];
+    focus_photo_pic.alt = photoTitle[n];
+    focus_photo_link.href = photoLink[n];
+    focus_photo_title.innerHTML = "<a href='"+photoLink[n]+"' target='_blank'>"+photoTitle[n]+"</a>";
+    for(var i=0; i<photoPic.length; i++){
+        G("focus_photo_page_" + i).className = "";
+    }
+    G("focus_photo_page_" + n).className = "on";
+    theTimer = setTimeout("nextPic()",5000);
+}
+ 
+start();
+
+</SCRIPT>
+</DIV>
+<DIV style="HEIGHT: 425px" class=hotimg>
+<H2><SPAN class=ioca></SPAN><SPAN><A style="COLOR: #000" 
+onmouseover=this.href=htmlc; target=_Blank>{dede:field.typename/}</A>&gt;<A 
+style="PADDING-BOTTOM: 0px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; COLOR: #000; PADDING-TOP: 0px">栏目热点</A></SPAN></H2>
+
+  
+
+  
+  {dede:arclist row='3'     imgwidth='112' imgheight='80'  infolen='32'   orderby ='pubdate'}
+  
+<DIV class=jstwf><SPAN><A title=[field:fulltitle/] 
+href="[field:arcurl/]" 
+target=_blank>[field:title/]</A></SPAN> 
+<DL>
+  <DT><A title=[field:fulltitle/]  
+  href="[field:arcurl/]" 
+  target=_blank><IMG title=[field:fulltitle/]  
+  src="[field:picname/]" 
+  width=112 height=80></A></DT>
+  <DD>&nbsp;&nbsp;&nbsp;&nbsp;[field:info/] ...<A 
+  title=[field:fulltitle/]  
+  href="[field:arcurl/]" 
+  target=_blank>[详细]</A></DD></DL></DIV>
+  
+  {/dede:arclist}
+  
+  </DIV>
+<DIV class=hotimg_ff>
+<H2><SPAN class=ioca></SPAN><SPAN><A style="COLOR: #000" 
+onmouseover=this.href=htmlc; target=_Blank>{dede:field.typename/}</A>&gt;<A 
+style="PADDING-BOTTOM: 0px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; COLOR: #000; PADDING-TOP: 0px">栏目热门点击</A></SPAN></H2>
+<UL>
+	
+	{dede:arclist row='10'      orderby ='pubdate'}
+
+	
+  <LI><SPAN><A title="[field:fulltitle/]" 
+    href="[field:arcurl/]" 
+    target=_blank>    [field:title/]</A></SPAN></LI>
+    
+        {/dede:arclist}
+    
+   
+  
+  </UL></DIV><!--左--></DIV><!-- left end --><!-- mid -->
+<DIV class=Mid1>
+<DIV class=news1>
+<H2><SPAN class=ioca></SPAN><SPAN>  {dede:field name='position'/} </SPAN></H2></DIV>
+<DIV class=news2>
+<UL>
+	
+	{dede:list pagesize ='6'}
+	
+	
+  <LI class=topic><A title=[field:fulltitle/]
+  href="[field:arcurl/]" 
+  target=_blank>[field:title/]</A></LI>
+  <LI class=time>[field:pubdate function="MyDate('Y-m-d',@me)"/] </LI>
+  
+{/dede:list}
+  
+
+  
+  
+  
+  </UL>
+<UL>
+	
+	{dede:list pagesize ='6'}
+	
+	
+  <LI class=topic><A title=[field:fulltitle/]
+  href="[field:arcurl/]" 
+  target=_blank>[field:title/]</A></LI>
+  <LI class=time>[field:pubdate function="MyDate('Y-m-d',@me)"/] </LI>
+  
+{/dede:list}
+  
+
+  
+  
+  
+  </UL>
+<UL>
+	
+	{dede:list pagesize ='6'}
+	
+	
+  <LI class=topic><A title=[field:fulltitle/]
+  href="[field:arcurl/]" 
+  target=_blank>[field:title/]</A></LI>
+  <LI class=time>[field:pubdate function="MyDate('Y-m-d',@me)"/] </LI>
+  
+{/dede:list}
+  
+
+  
+  
+  
+  </UL>
+<UL>
+	
+	{dede:list pagesize ='6'}
+	
+	
+  <LI class=topic><A title=[field:fulltitle/]
+  href="[field:arcurl/]" 
+  target=_blank>[field:title/]</A></LI>
+  <LI class=time>[field:pubdate function="MyDate('Y-m-d',@me)"/] </LI>
+  
+{/dede:list}
+  
+
+  
+  
+  
+  </UL>
+<UL>
+	
+	{dede:list pagesize ='6'}
+	
+	
+  <LI class=topic><A title=[field:fulltitle/]
+  href="[field:arcurl/]" 
+  target=_blank>[field:title/]</A></LI>
+  <LI class=time>[field:pubdate function="MyDate('Y-m-d',@me)"/] </LI>
+  
+{/dede:list}
+  
+
+  
+  
+  
+  </UL>
+  
+  </DIV></DIV>
+<DIV class=ff_right>
+<H2>热图排行</H2>
+<UL>
+	
+	{dede:arclist row='6'   infolen='32'  imgwidth='168' imgheight='120'   orderby ='pubdate'}
+  <LI><A title=[field:fulltitle/] 
+  href="[field:arcurl/]" 
+  target=_blank><IMG title=[field:fulltitle/] 
+  src="[field:picname/]" 
+  width=168 height=120></A> 
+  <P><A title=[field:fulltitle/] 
+  href="[field:arcurl/]" 
+  target=_blank>[field:title/]</A></P></LI>
+  
+  {/dede:arclist}
+  
+  
+  </UL></DIV>
+<DIV class=clear></DIV></DIV>
+<DIV class=Mid1page>
+	{dede:pagelist listitem="pre,pageno,next," /}
+	
+	</DIV>
+	
+	{dede:include filename="footer.htm"/}
+	
+	
+	</BODY></HTML>

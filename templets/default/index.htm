@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="{dede:global.cfg_soft_lang/}">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>{dede:global.cfg_webname/} - 优读网</title>
+<meta name="keywords" content="{dede:global.cfg_keywords/}" />
+<meta name="description" content="{dede:global.cfg_description/}" />
+<link rel="Bookmark" href="/favicon.ico" ><link rel="Shortcut Icon" href="/favicon.ico" />
+<script type="text/javascript" src="/skin/blog/js/min.js?version=1.7.1"></script>
+<script type="text/javascript" src="/skin/blog/js/lang/cn.js?t=0"></script>
+<script type="text/javascript" src="/skin/blog/js/tczAppsui.js?t=0"></script>
+<link href="/skin/blog/style.css?t=0" rel="stylesheet" type="text/css" />
+<link href="/skin/blog/global.css?t=0" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/skin/blog/global.js?t=0"></script>
+<script type="text/javascript">
+(function() {
+
+	var ua = navigator.userAgent;
+	var istablet = /android/i.test(ua) && !/mobile/i.test(ua);
+	if (!istablet && /(android)|(iphone)|(ipod)/i.test(ua) && (!/mi pad/i.test(ua))) {
+		try {
+			var jumpUrl = "/mobile/";
+			location.replace(jumpUrl)
+		} catch (d) {}
+	}
+	
+})(); 
+</script>
+</head>
+<body>
+    <div class="qyk_dl qyk_shadow">
+	<div class="dlout">
+		<div class="logo"><a href="/"><img src="/templets/default/images/logo.jpg"></a></div>
+		<div class="menu"><a href='/' class='on' title='网站首页'>网站首页</a>
+		{dede:channel type='top' row='7' currentstyle="<span>|</span><a href='~typelink~' class='on'>~typename~</a>"}
+<span>|</span><a href='[field:typelink/]' class='out' title='[field:typename/]'>[field:typename/]</a>
+{/dede:channel}
+		</div>
+			</div>
+</div>
+<div class="qyk_line"></div>
+<div class="qyk_body">
+<div class="qyk_left">
+	<div class="mybanner qyk_shadow"><div class="ui_advert" id="advert" style="width:100%;height:100%"><a title="静落凝封" href="http://www.onlcom.cn" target="_blank"><img src="/adm/index_A1.jpg" alt="静落凝封"></a><a title="创业的6大铁律" href="http://www.onlcom.cn" target="_blank"><img src="/adm/index_A2.jpg" alt="创业的6大铁律">
+</div>
+<script type="text/javascript">PZ.ready({callback:function(){PZ.banner({obj:$("#advert"),delay:5000,btn:"num",pos:"right",animate:5,target:"new"})}});</script></div>
+	<div class="qyk_line"></div>
+	<div class="left_tit"><div class="left">最近发表文章</div><div class="right"><a class="scat_out" href="/">更多精彩 &raquo;</a></div></div>
+	<div class="bloglist qyk_shadow">
+		<ul class="ui_artlt_1">
+		    {dede:arclist row="12" titlelen="120" orderby="pubdate"}
+		    <li><div class="artlt_time"><div class="artlt_day">[field:pubdate function="MyDate('d',@me)"/]</div><div class="artlt_year">[field:pubdate function="MyDate('Y年m月',@me)"/]</div></div>
+<div class="artlt_cover"><a href="[field:arcurl/]" title="[field:title function='html2text(@me)'/]" target="_blank"><img src="[field:litpic/]" width="136px" height="102px"></a></div><div class="artlt_text artlt_text_pdl">	<div class="artlt_tit"><a title="[field:title function='html2text(@me)'/]" href="[field:arcurl/]" target="_blank">[field:title function='html2text(@me)'/]</a></div>
+	<div class="artlt_desc">[field:description function='html2text((strlen("@me")>136 ? cn_substr("@me",136)."..." : "@me" ))'/]</div>
+	<div class="artlt_count"><span class="artlt_comment artlt_light"><a href="[field:typeurl/]" title="[field:typename/]" target="_blank">[field:typename/]</a></span><span class="artlt_hits">[field:click/]</span><span class="artlt_update">[field:pubdate function="MyDate('Y-m-d H:m',@me)"/]</span></div></div></li>
+	{/dede:arclist}
+	</ul>
+		<a class="lookmore" href="/">查看更多文章</a>
+	</div>
+</div>
+<div class="qyk_right">
+	<div class="block qyk_shadow">
+		<div class="block_tit"><div class="left redbg">推荐文章</div></div>
+		<ul class="ui_artlt_2">
+		    {dede:arclist titlelen="120" flag="c,p" orderby="pubdate" limit="0,2"}
+		    <li class="artlt_list_cover">
+<div class="artlt_cover"><a href="[field:arcurl/]" title="[field:title function='html2text(@me)'/]" target="_blank"><img src="[field:litpic/]" width="100px" height="75px"></a></div>
+<div class="artlt_text">
+	<div class="artlt_tit"><a href="[field:arcurl/]" title="[field:title function='html2text(@me)'/]" style="color:#ff0000;" target="_blank">[field:title function='html2text((strlen("@me")>42 ? cn_substr("@me",42)."..." : "@me" ))'/]</a></div>
+	<div class="artlt_count"><span class="artlt_update">[field:pubdate function="MyDate('Y-m-d H:m',@me)"/]</span></div>
+</div></li>
+{/dede:arclist}
+{dede:arclist titlelen="120" flag="c,p" orderby="pubdate" limit="2,5"}
+<li class="artlt_list_text">
+<div class="artlt_tit"><a href="[field:arcurl/]" title="[field:title function='html2text(@me)'/]" target="_blank">[field:title function='html2text((strlen("@me")>36 ? cn_substr("@me",36)."..." : "@me" ))'/]</a></div>
+<div class="artlt_count"><span class="artlt_update">[field:pubdate function="MyDate('Y-m-d H:m',@me)"/]</span></div></li>
+{/dede:arclist}
+</ul>
+	</div>
+	<div class="qyk_line"></div>
+	<div class="block_2 qyk_shadow">
+		<div class="ui_advert" id="advert_photo" style="width:100%;height:238px;">
+		    {dede:arclist row="5" titlelen="120" flag="f,p" orderby="pubdate"}
+		    <a href="[field:arcurl/]" title="[field:title function='html2text(@me)'/]" target="_blank"><img src="[field:litpic/]" alt="[field:title function='html2text(@me)'/]"></a>
+		    {/dede:arclist}
+		    </div>
+		<script type="text/javascript">PZ.ready({callback:function(){PZ.banner({obj:$("#advert_photo"),delay:4000,btn:"small",pos:"right",animate:3})}});</script>
+	</div>
+	<div class="qyk_line"></div>
+	<div class="block qyk_shadow">
+		<div class="block_tit"><div class="left greenbg">热点文章</div></div>
+		<ul class="ui_bookitem">
+{dede:arclist row="8" titlelen="120" orderby="rand"}
+<li><div class="bookitem_top"><div class="bookitem_name"><a href="[field:arcurl/]" title="[field:title function='html2text(@me)'/]" target="_blank">[field:title function='html2text(@me)'/]</a></div></div><div class="bookitem_cont">[field:typename/]</div></li>
+{/dede:arclist}
+    </ul>
+		   </div>
+	<div class="qyk_line"></div>
+	<div class="block qyk_shadow">
+		<div class="block_tit"><div class="left bluebg">友情链接</div><a class="more" href="/about/contact.html" target="_blank">申请链接</a></div>
+		<ul class="ui_artlt_5"><li><a href='http://www.hmpym.cn/' target='_blank'>整站源码下载网</a> </li>{dede:flink row="12" titlelen="12" type="text"/}</ul>
+
+		<div style="clear:both"></div>
+	</div>
+</div>
+</div>
+<div class="qyk_line"></div>
+{dede:include filename="footer.htm"/}
+</body>
+</html>

@@ -1,0 +1,131 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>{dede:field.title/}-{dede:global.cfg_webname/}</title>
+<meta content="{dede:field.keywords/}" name="Keywords">
+<meta name="description" content="{dede:field.description  function='html2text(@me)'/}" />
+<LINK href="{dede:global.cfg_templets_skin/}/style/soft.css" type=text/css rel=stylesheet>
+<LINK href="{dede:global.cfg_templets_skin/}/style/header5.css" type=text/css rel=stylesheet>
+<script type="text/javascript" src="http://img.kuai.xunlei.com/js/webxunlei.js"></script><base target="_blank">
+</head>
+{dede:include filename="head.htm"/}  
+         <div class="bgcontain" style="margin-top:4px;">
+ 
+       </div>
+        <div class="bgcontain">
+         <div id="layout">
+          <div id="layoutborder">
+           <div id="main">
+            <div id="down">
+             <h2><span>{dede:field.title/}</span> <a href="#downurl" id="downBtn">马上下载</a></h2>
+              <ul>
+ 
+              <li><strong>软件语言:</strong> <span>{dede:field.language/}</span></li>
+              <li><strong>软件类别:</strong> <span>{dede:field.softtype/}</span></li>
+              <li><strong>运行环境:</strong> <span>{dede:field.os/}</span></li>
+              <li><strong>软件等级:</strong> <span>{dede:field.softrank function='GetRankStar(@me)'/}</span></li>              
+			  <li><strong>更新时间:</strong> <span>{dede:field.pubdate function="GetDateMk('@me')"/}</span></li>
+              <li><strong>下载次数:</strong> <span><script src="{dede:field.phpurl/}/disdls.php?aid={dede:field.id/}" language="javascript"></script></span></li>
+              <li><strong>相关连接:</strong> <span><a href="" target="_blank"></a></span></li>
+              <li><strong>相关标签:</strong> <span>{dede:global name='keyword' function='RemoveXSS(@me)'/}</span></li>
+              <li><strong>插件情况:</strong> <span id="plugin"><img src="{dede:global.cfg_templets_skin/}/images/
+plugin1.gif" alt="插件情况" /></span></li>
+<li><strong>错误报告:</strong> <span><a href="{dede:global name='cfg_phpurl'/}/erraddsave.php?aid={dede:field.id/}&title={dede:field.title/}" target="_blank">该软件下载不了请点此报告错误</a>
+</span></li>
+              <li></li>
+              <LI><A 
+  href="javascript:window.external.AddFavorite(this.location,'{dede:field.title/}')"><IMG 
+  alt=收藏该软件 src="{dede:global.cfg_templets_skin/}/images/pm.gif" 
+  border=0></A>&nbsp;&nbsp;<A 
+  href="#downurl"><IMG alt=立即下载该软件 
+  src="{dede:global.cfg_templets_skin/}/images/pm2.gif" 
+  border=0></A> 
+  <LI><A href="#softcomments"><IMG alt=查看软件评论 
+  src="{dede:global.cfg_templets_skin/}/images/pm3.gif" 
+  border=0></A>&nbsp;&nbsp;<a href="/help/help.html" target="_blank"><IMG src="{dede:global.cfg_templets_skin/}/images/pm4.gif" 
+  alt=下载帮助 
+  border=0></a>
+            </ul>
+              <div id="screenshot">
+<img src="" 
+onerror="this.src='{dede:global.cfg_templets_skin/}/images/ifnoimg.gif'" alt="{dede:field.title/}" /></div>
+                 </div>
+               <div id="intro"> 
+              <h2>软件介绍
+             </h2>
+        <p>{dede:field.introduce/}</p> </div>		     
+        <div id="downurl">
+          <h2 id="downTitle">下载地址 </h2>
+                   
+                    <ul>
+{dede:field name='softlinks'/}	  
+              </ul>
+        </div>
+ 
+        <div id="attention">
+<h2>相关说明 <span>Attentions</span></h2>
+<ul>
+<li>为了保证您能快速下载,推荐使用 [快车、迅雷、网络传送带] 等专业工具下载.</li>
+<li>为了保证所下的软件能正常使用,请使用 [WinRAR 3.0] 以上版本解压本站软件.</li>
+<li>如您发现该资源无法下载，请稍后再次尝试；若依然如此，<a href="{dede:global name='cfg_phpurl'/}/erraddsave.php?aid={dede:field.id/}&title={dede:field.title/}" target="_blank">该软件下载不了请点此报告错误</a>.</li>
+<li>如果下载的部分压缩包需要解压密码，解压密码就是：www.romziyuan.com</li>
+
+<li>本站软件包含破解及注册码均由网上搜集,若无意中侵犯到您的权利,请与我们联系，收到来信后将立即处理.</li>
+<li>本站为非营利性站点，任何涉及商业盈利目的均不得使用，否则产生的一切后果将由您自己承担.</li>
+</ul>
+</div>
+        <div id="softcomments">
+          <h2> 相关评论 <span>Soft Comments</span></h2>
+<!--兼容版，可保证页面完全兼容-->
+<div id="SOHUCS"></div>
+<script>
+  (function(){
+    var appid = 'cyqXHXM4p',
+    conf = 'prod_bc3ea21614e0fdc4359bdd4d3315313f';
+    var doc = document,
+    s = doc.createElement('script'),
+    h = doc.getElementsByTagName('head')[0] || doc.head || doc.documentElement;
+    s.type = 'text/javascript';
+    s.charset = 'utf-8';
+    s.src =  'http://assets.changyan.sohu.com/upload/changyan.js?conf='+ conf +'&appid=' + appid;
+    h.insertBefore(s,h.firstChild);
+  })()
+</script>
+</div>
+        </div>
+        <div id="sidebar">
+          <div id="div">
+ 
+  <div id="cattop">
+    <h2>本类精品推荐</h2>
+ 
+  </div>
+  <div id="cattop">
+    <h2>推荐软件</h2>
+    <ul>
+                      {dede:arclist flag='c' titlelen=42 row=8}
+<li><a href="[field:arcurl/]" title="[field:title/]">[field:title/]</a></li>
+                    {/dede:arclist}  
+ 
+
+
+    </ul>
+    </div>
+  <div id="cattop">
+       <h2>热门软件</h2>
+       <ul>                  {dede:arclist row=10 orderby=click}
+<li><a href="[field:arcurl/]" title="[field:title/]">[field:title/]</a></li>
+                    {/dede:arclist}  
+      </ul></div>
+
+  <div id="cattop">
+    <h2>广告赞助</h2>
+	<script src='/plus/ad_js.php?aid=25' language='javascript'></script>
+</div>
+     </div>
+      </div>
+      </div>
+    </div>
+  
+{dede:include filename="footer.htm"/}

@@ -1,0 +1,1 @@
+﻿document.write(' | <span class="guz"><a href="http://weibo.com/dawuge123" hidefocus="hidefocus" target="_blank">关注大吴哥微博</a></span>');

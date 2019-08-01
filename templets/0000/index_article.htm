@@ -1,0 +1,87 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>{dede:field.title/}-{dede:global.cfg_webname/}</title>
+<meta content="{dede:field name='keywords'/}" name="Keywords">
+<meta name="description" content="{dede:field name='description'  function='html2text(@me)'/}" />
+<link rel="stylesheet" type="text/css" href="{dede:field name='templeturl'/}/css/css.css" />
+<link rel="shortcut icon" href="favicon.ico" />
+<base target="_blank">
+</head>
+
+<body>
+{dede:include filename="header.htm"/}
+<div id="youhere">
+
+<span id="here">您的位置: {dede:field name='position'/}文章列表 </span> 
+
+<span id="caterss"><a href="{dede:global.cfg_cmsurl/}/data/rss/{dede:field name='typeid'/}.xml" target="_blank"><img src="{dede:field name='templeturl'/}/images/rss.gif" alt="RSS订阅此分类" /></a></span>
+
+
+</div>
+
+<div id="softlist">
+<h2>{dede:field name='title'/}文章</h2>
+
+
+<ul>
+	
+{dede:list pagesize='10'}
+<li><a href="[field:filename/]">[field:title/]</a></li>
+<li class="shortinrto">[field:description/]</li>
+<li class="softmeta">日期: <span>[field:pubdate function='GetDateMk(@me)'/]</span>  等级: <span>[field:softrank function='GetRankStar(@me)'/]</span> 文章: <span>[field:click/]次</span></li>
+{/dede:list}
+
+</ul>
+
+<p id="pages">{dede:pagelist listitem="info,index,end,pre,next,pageno" listsize="5"/}
+</p>
+</div>
+
+<div id="weektop">
+<h2>{dede:field.title/}热门文章</h2>
+<ul>
+{dede:arclist row=20 titlelen=35 }
+      <li><span>[field:pubdate function=strftime('%m-%d',@me)/]</span><a href="[field:arcurl/]" title="[field:title/]">[field:title/]</a></li>
+{/dede:arclist}
+</ul>
+</div>
+<div id="weektop">
+<h2>广告赞助</h2>
+<ul>
+<img src='/images/ad110.png' border='0' alt='ad110'>
+</ul>
+</div>
+<div id="weektop">
+<ul>
+<img src='/images/ad111.png' border='0' alt='ad110'>
+</ul>
+</div>
+
+<div id="sidebar">
+<div class="sidebox">
+<h2>随机推荐 &raquo;</h2>
+
+<ul>
+
+{dede:arclist row=10 titlelen=90 orderby=rand typeid=1,2,3,4,5,6,7,8,9,10,11}
+      <li><a href="[field:arcurl/]" title="[field:title/]">[field:title/]</a></li>
+{/dede:arclist} 
+</ul>
+
+</div>
+<div class="sidebox" style="margin-left:8px;">
+<h2>最新更新 &raquo;</h2>
+<ul>
+{dede:arclist row=10 titlelen=90 typeid=1,2,3,4,5,6,7,8,9,10,11}
+      <li><a href="[field:arcurl/]" title="[field:title/]">[field:title/]</a></li>
+{/dede:arclist} 
+</ul>
+</div>
+<div class="clear"></div>
+</div>
+
+{dede:include filename="footer.htm"/}
+</body>
+</html>

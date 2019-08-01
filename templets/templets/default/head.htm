@@ -1,0 +1,32 @@
+<div class="header_top">  
+    <div class="w960 center">  
+     <span id="time" class="time">专业建站系统 - 打造最好的网站内容系统！</span>
+     <div class="toplinks"><a href="{dede:global.cfg_cmsurl/}/plus/heightsearch.php" target="_blank">高级搜索</a>|<a href="{dede:global.cfg_cmsurl/}/tags.php">Tag标签</a>|<a href="{dede:global.cfg_dataurl/}/rssmap.html" class="rss">Rss订阅</a>|<a href="{dede:global.cfg_cmsurl/}/sitemap.xml" target="_blank">Sitemap</a></div>
+    </div> 
+</div>
+<div class="header">
+    <h1><a href="/" title="{dede:global.cfg_basehost/}">{dede:global.cfg_basehost/}</a></h1>
+    <div class="search">
+	  <form name="formsearch" action="{dede:global.cfg_cmsurl/}/plus/search.php">
+           <input type="hidden" name="kwtype" value="0">
+           <input name="q" type="text" class="search-keyword" id="search-keyword" value="在这里搜索..." onfocus="if(this.value=='在这里搜索...'){this.value='';}" onblur="if(this.value==''){this.value='在这里搜索...';}">
+          <button type="submit" class="search-submit">搜一下</button>
+      </form>
+       <div class="tags">
+          <h4>随机标签:</h4>
+          <ul>
+          {dede:tag row='4' getall='1' sort='rand'}
+            <li><a href='[field:link/]'>[field:tag /]</a></li>
+          {/dede:tag}
+        </div>
+	</div>
+</div>
+<div class="nav_bg">
+  <ul class="nav">
+      	<a href='/' class="hvoer">首页</a>
+      	{dede:channel type='top' row='8' currentstyle="<a href='~typelink~' ~rel~>~typename~</a>"}
+      	<a href='[field:typeurl/]' [field:rel/]>[field:typename/]</a>
+      	{/dede:channel}
+  </ul>
+</div>
+

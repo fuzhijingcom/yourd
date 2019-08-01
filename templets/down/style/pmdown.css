@@ -1,0 +1,1318 @@
+#tuij {
+	background: rgb(255, 254, 248); border: 1px solid rgb(232, 202, 120); width: 196px; height: 120px;
+}
+#tonglan {
+	border: 1px solid rgb(51, 153, 255); width: 900px; height: 60px; margin-top: 5px;
+}
+#tonglan1 {
+	border: 1px solid rgb(51, 153, 255); width: 900px; height: 60px; margin-top: 5px;
+}
+.ads {
+	width: 564px; text-indent: 12px; padding-top: 5px; padding-bottom: 5px; margin-top: 2px; float: left;
+}
+#search {
+	width: 310px; height: 27px; text-align: center; float: right;
+}
+.searchs {
+	width: 250px; float: left;
+}
+.searchp {
+	width: 60px; float: right;
+}
+body {
+	background: repeat-x rgb(255, 255, 255); font: 12px/normal Verdana, Arial, sans-serif; margin: 0px; padding: 0px; color: rgb(102, 102, 102); font-size-adjust: none; font-stretch: normal;
+}
+a:link {
+	color: rgb(16, 92, 182);
+}
+a:visited {
+	color: rgb(16, 92, 182);
+}
+a:hover {
+	color: rgb(0, 0, 51);
+}
+img {
+	border: currentColor;
+}
+hr {
+	display: none;
+}
+.hide {
+	display: none;
+}
+.clear {
+	clear: both;
+}
+.bgcontain {
+	margin: 0px auto; width: 900px;
+}
+h1 {
+	background: url("../images/logo.gif") 0px -78px; margin: 25px 0px 0px; padding: 0px; font-size: 12px; float: left;
+}
+h1 a {
+	padding: 22px 1px 0px 174px; color: rgb(0, 103, 168); font-weight: normal; text-decoration: none; display: block;
+}
+* html h1 a {
+	padding: 24px 1px 0px 174px;
+}
+* + html h1 a {
+	padding: 24px 1px 0px 174px;
+}
+h1 a:hover {
+	background: url("../images/logo.gif") 0px -39px; color: rgb(0, 103, 168); text-decoration: none;
+}
+h2 {
+	font-size: 14px; font-weight: bold;
+}
+.left {
+	width: 212px; float: left;
+}
+.middle {
+	width: 474px; margin-left: 8px; float: left;
+}
+.right {
+	width: 198px; float: right;
+}
+#searchbox {
+	margin: 34px 0px 0px; float: right;
+}
+input.on {
+	background: rgb(248, 248, 248); border: 1px solid rgb(255, 195, 26); width: 145px; height: 16px; color: rgb(51, 51, 51); padding-bottom: 2px; padding-left: 2px; font-family: Verdana; font-size: 12px; margin-top: 4px; margin-bottom: 2px; margin-left: 6px;
+}
+input.over {
+	background: rgb(255, 255, 255); padding: 5px 2px 1px 4px; border: 1px solid rgb(179, 231, 0); width: 145px; height: 18px; color: rgb(51, 51, 51); font-family: Verdana; font-size: 12px;
+}
+#searchbotton {
+	width: 54px; height: 25px; padding-bottom: 1px; margin-top: 2px; margin-left: 2px; vertical-align: bottom;
+}
+#menu {
+	background: url("../images/menu_bg.gif") no-repeat right 0% rgb(203, 228, 176); height: 28px; color: rgb(186, 208, 152); border-top-color: rgb(196, 221, 169); border-top-width: 1px; border-top-style: solid;
+}
+#menuleft {
+	background: url("../images/menu_left.gif") no-repeat; width: 10px; height: 28px; float: left;
+}
+#menu a {
+	margin: 0px; padding: 0px 8px; color: rgb(50, 91, 10); line-height: 28px; text-decoration: none; float: left;
+}
+#menu a:hover {
+	background: rgb(149, 178, 116); height: 25px; color: rgb(255, 255, 255); text-decoration: none; border-bottom-color: rgb(124, 154, 87); border-bottom-width: 3px; border-bottom-style: solid;
+}
+* html #menu a:hover {
+	border: currentColor;
+}
+#menu span {
+	margin: 5px 3px 0px 0px; float: right;
+}
+#menu span a:hover {
+	border: currentColor; height: 16px;
+}
+#welcome {
+	background: rgb(249, 253, 219); border: 1px solid rgb(226, 228, 79); height: 27px; color: rgb(84, 84, 84); line-height: 15px; padding-top: 0px; margin-top: 6px; margin-bottom: 4px;
+}
+#welword {
+	background: url("../images/welcome_bg.gif") no-repeat left 45%; padding: 1px 0px 0px 28px; float: left;
+}
+#welword a {
+	text-decoration: none;
+}
+#stats a {
+	text-decoration: none;
+}
+#welword a:hover {
+	text-decoration: underline;
+}
+#stats a:hover {
+	text-decoration: underline;
+}
+#stats {
+	float: right;
+}
+#stats strong {
+	color: rgb(50, 91, 10);
+}
+#affiche {
+	background: rgb(251, 253, 255); border: 1px solid rgb(137, 212, 248); width: 210px; color: rgb(0, 117, 177);
+}
+#recom {
+	background: rgb(251, 253, 255); border: 1px solid rgb(137, 212, 248); width: 210px; height: 388px; color: rgb(0, 117, 177);
+}
+
+#recom { 
+margin : 8px 0; 
+}
+#recom2 {
+	background: rgb(251, 253, 255); border: 1px solid rgb(137, 212, 248); width: 210px;   color: rgb(0, 117, 177);
+}
+#essential {
+	margin: 8px 0px 0px; border: 1px solid rgb(137, 212, 248); width: 210px; float: left; background-color: rgb(251, 253, 255);
+}
+#weektop {
+	margin: 8px 0px 0px; border: 1px solid rgb(137, 212, 248); width: 210px; float: left; background-color: rgb(251, 253, 255);
+}
+#alltop {
+	margin: 8px 0px 0px; border: 1px solid rgb(137, 212, 248); width: 210px; float: left; background-color: rgb(251, 253, 255);
+}
+#affiche h2 {
+	background: url("../images/h2_bg.gif") repeat-x; margin: 0px 1px; padding: 0px 6px; color: rgb(0, 117, 181); line-height: 25px;
+}
+#recom h2 {
+	background: url("../images/h2_bg.gif") repeat-x; margin: 0px 1px; padding: 0px 6px; color: rgb(0, 117, 181); line-height: 25px;
+}
+#recom2 h2 {
+	background: url("../images/h2_bg.gif") repeat-x; margin: 0px 1px; padding: 0px 6px; color: rgb(0, 117, 181); line-height: 25px;
+}
+#affiche ul {
+	list-style: none; margin: 0px; padding: 3px 4px 8px 8px;
+}
+#recom ul {
+	list-style: none; margin: 0px; padding: 3px 4px 8px 8px;
+}
+#recom2 ul {
+	list-style: none; margin: 0px; padding: 3px 4px 8px 8px;
+}
+#essential ul {
+	list-style: none; margin: 0px; padding: 3px 4px 8px 8px;
+}
+.other ul {
+	list-style: none; margin: 0px; padding: 3px 4px 8px 8px;
+}
+.other2 ul {
+	list-style: none; margin: 0px; padding: 3px 4px 8px 8px;
+}
+#weektop ul {
+	list-style: none; margin: 0px; padding: 3px 4px 8px 8px;
+}
+#alltop ul {
+	list-style: none; margin: 0px; padding: 3px 4px 8px 8px;
+}
+#cattop ul {
+	list-style: none; margin: 0px; padding: 3px 4px 8px 8px;
+}
+* html #essential ul {
+	padding: 2px 4px 7px 8px;
+}
+* + html #essential ul {
+	padding: 2px 4px 7px 8px;
+}
+* html #weektop ul {
+	padding: 2px 4px 7px 8px;
+}
+* + html #weektop ul {
+	padding: 2px 4px 7px 8px;
+}
+* html #alltop ul {
+	padding: 2px 4px 7px 8px;
+}
+* + html #alltop ul {
+	padding: 2px 4px 7px 8px;
+}
+#recently ul {
+	list-style: none; margin: 0px; padding: 3px 4px 2px 8px; clear: both;
+}
+* html #recently ul {
+	padding: 3px 4px 4px 8px;
+}
+#affiche li {
+	background: url("../images/arrow.gif") no-repeat left 10px; height: 25px; line-height: 25px; overflow: hidden; padding-left: 10px;
+}
+#recom li {
+	background: url("../images/arrow.gif") no-repeat left 10px; height: 25px; line-height: 25px; overflow: hidden; padding-left: 10px;
+}
+#recom2 li {
+	background: url("../images/arrow.gif") no-repeat left 10px; height: 25px; line-height: 25px; overflow: hidden; padding-left: 10px;
+}
+#recently li {
+	background: url("../images/arrow.gif") no-repeat left 10px; height: 25px; line-height: 25px; overflow: hidden; padding-left: 10px;
+}
+#essential li {
+	background: url("../images/arrow.gif") no-repeat left 10px; height: 25px; line-height: 25px; overflow: hidden; padding-left: 10px;
+}
+.other li {
+	background: url("../images/arrow.gif") no-repeat left 10px; height: 25px; line-height: 25px; overflow: hidden; padding-left: 10px;
+}
+.other2 li {
+	background: url("../images/arrow.gif") no-repeat left 10px; height: 25px; line-height: 25px; overflow: hidden; padding-left: 10px;
+}
+#weektop li {
+	background: url("../images/arrow.gif") no-repeat left 10px; height: 25px; line-height: 25px; overflow: hidden; padding-left: 10px;
+}
+#alltop li {
+	background: url("../images/arrow.gif") no-repeat left 10px; height: 25px; line-height: 25px; overflow: hidden; padding-left: 10px;
+}
+#cattop li {
+	background: url("../images/arrow.gif") no-repeat left 10px; height: 25px; line-height: 25px; overflow: hidden; padding-left: 10px;
+}
+#hotcomments li {
+	background: url("../images/arrow.gif") no-repeat left 10px; height: 25px; line-height: 25px; overflow: hidden; padding-left: 10px;
+}
+#attention li {
+	background: url("../images/arrow.gif") no-repeat left 9px; height: 23px; line-height: 23px; overflow: hidden; padding-left: 10px;
+}
+#attention li a {
+	text-decoration: none;
+}
+#hotcomments li a {
+	text-decoration: none;
+}
+#attention li a:hover {
+	text-decoration: underline;
+}
+#hotcomments li a:hover {
+	text-decoration: underline;
+}
+#attention li strong {
+	color: rgb(255, 51, 153); font-weight: normal;
+}
+* html #essential li {
+	height: 27px; line-height: 27px;
+}
+* + html #essential li {
+	height: 27px; line-height: 27px;
+}
+* html #weektop li {
+	height: 27px; line-height: 27px;
+}
+* + html #weektop li {
+	height: 27px; line-height: 27px;
+}
+* html #alltop li {
+	height: 27px; line-height: 27px;
+}
+* + html #alltop li {
+	height: 27px; line-height: 27px;
+}
+#recently {
+	background: rgb(251, 253, 255); border: 1px solid rgb(137, 212, 248); width: 472px; color: rgb(102, 102, 102); min-height: 408px;
+}
+#recently h2 {
+	background: url("../images/h2_bg.gif") repeat-x; margin: 0px 1px; padding: 0px 6px; height: 25px; color: rgb(0, 117, 181); line-height: 25px;
+}
+#recently h2 span {
+	width: 100px; float: left;
+}
+#recently h2 a {
+	background: rgb(255, 255, 255); padding: 3px; border: 1px solid rgb(137, 212, 248); margin-top: 6px; float: right; display: block;
+}
+#recently h2 a:hover {
+	background: rgb(255, 255, 255); border: 1px solid rgb(134, 197, 53);
+}
+#recently li a.soft {
+	width: 340px; float: left;
+}
+#recently li span {
+	margin: 0px; width: 40px; text-align: right; color: rgb(3, 141, 217); font-size: 11px; float: left;
+}
+#recently li span.new {
+	color: rgb(255, 74, 134);
+}
+#recently li a.cate {
+	margin: 0px; padding: 0px; color: rgb(153, 153, 153); text-decoration: none; float: right;
+}
+#recently li a.cate:hover {
+	color: rgb(3, 141, 217); text-decoration: underline;
+}
+#banner01 {
+	margin: 8px 0px; padding: 2px; border: 1px solid rgb(137, 212, 248);
+}
+#quick {
+	border: 1px solid rgb(137, 212, 248); width: 196px; height: 42px; background-color: rgb(255, 255, 255);
+}
+#quick h2 {
+	background: url("../images/h2_bg.gif") repeat-x; margin: 0px 1px; padding: 0px 6px; color: rgb(0, 117, 177); line-height: 25px;
+}
+#cool h2 {
+	background: url("../images/h2_bg.gif") repeat-x; margin: 0px 1px; padding: 0px 6px; color: rgb(0, 117, 177); line-height: 25px;
+}
+#essential h2 {
+	background: url("../images/h2_bg.gif") repeat-x; margin: 0px 1px; padding: 0px 6px; color: rgb(0, 117, 177); line-height: 25px;
+}
+#weektop h2 {
+	background: url("../images/h2_bg.gif") repeat-x; margin: 0px 1px; padding: 0px 6px; color: rgb(0, 117, 177); line-height: 25px;
+}
+#alltop h2 {
+	background: url("../images/h2_bg.gif") repeat-x; margin: 0px 1px; padding: 0px 6px; color: rgb(0, 117, 177); line-height: 25px;
+}
+#cats h2 {
+	background: url("../images/h2_bg.gif") repeat-x; margin: 0px 1px; padding: 0px 6px; color: rgb(0, 117, 177); line-height: 25px;
+}
+#cattop h2 {
+	background: url("../images/h2_bg.gif") repeat-x; margin: 0px 1px; padding: 0px 6px; color: rgb(0, 117, 177); line-height: 25px;
+}
+#catrecom h2 {
+	background: url("../images/h2_bg.gif") repeat-x; margin: 0px 1px; padding: 0px 6px; color: rgb(0, 117, 177); line-height: 25px;
+}
+#ads h2 {
+	background: url("../images/h2_bg.gif") repeat-x; margin: 0px 1px; padding: 0px 6px; color: rgb(0, 117, 177); line-height: 25px;
+}
+#quick ul {
+	list-style: none; margin: 0px; padding: 3px 0px 3px 8px;
+}
+#hotcomments ul {
+	list-style: none; margin: 0px; padding: 3px 0px 3px 8px;
+}
+#quick li {
+	background: url("../images/arrow.gif") no-repeat left 10px; margin: 0px 20px 0px 3px; line-height: 25px; padding-left: 10px; float: left;
+}
+#quick li a {
+	color: rgb(0, 117, 177);
+}
+#quick li a:hover {
+	color: rgb(60, 40, 0);
+}
+#cool {
+		border: 1px solid rgb(137, 212, 248); width: 196px; height: 508px; margin-right: 0px; margin-bottom: 8px; margin-left: 0px; background-color: rgb(255, 255, 255);
+}
+#cats {
+	border: 1px solid rgb(137, 212, 248); width: 196px; background-color: rgb(255, 255, 255);
+}
+#cattop {
+	border: 1px solid rgb(137, 212, 248); width: 196px; background-color: rgb(255, 255, 255);
+}
+#catrecom {
+	border: 1px solid rgb(137, 212, 248); width: 196px; background-color: rgb(255, 255, 255);
+}
+#ads {
+	border: 1px solid rgb(137, 212, 248); width: 196px; background-color: rgb(255, 255, 255);
+}
+#ads {
+	margin: 8px 0px 0px; border-bottom-color: currentColor; border-bottom-width: medium; border-bottom-style: none;
+}
+
+#cool ul {
+	list-style: none; margin: 1px 0px 0px; padding: 4px 9px 0px;
+}
+#catrecom ul {
+	list-style: none; margin: 4px 0px 0px; padding: 4px 4px 0px 8px;
+}
+#cool li {
+	background: url("../images/arrow.gif") no-repeat left 10px; height: 25px; line-height: 25px; overflow: hidden; padding-left: 10px;
+}
+#catrecom li {
+	margin: 10px 0px; height: 58px; line-height: 20px; overflow: hidden; clear: both;
+}
+* html #cool li {
+	line-height: 22px;
+}
+* + html #cool li {
+	line-height: 22px;
+}
+#cool li a {
+	color: rgb(60, 40, 0); text-decoration: none;
+}
+#cool li a:hover {
+	color: rgb(60, 40, 0); text-decoration: underline;
+}
+#cool li img {
+	background: rgb(255, 255, 255); padding: 2px; border: 1px solid rgb(221, 221, 221); width: 170px; height: 75px;
+}
+#catrecom li img {
+	background: rgb(255, 255, 255); margin: 2px 5px 0px 0px; padding: 2px; border: 1px solid rgb(221, 221, 221); height: 50px; float: left;
+}
+#cool li a img:hover {
+	border: 1px solid rgb(60, 40, 0);
+}
+#catrecom li a img:hover {
+	border: 1px solid rgb(113, 145, 0);
+}
+#often {
+	border: 1px solid rgb(137, 212, 248); height: 70px; clear: both;
+}
+#often h2 {
+	background: url("../images/h2_bg.gif") repeat-x; margin: 0px 1px; padding: 0px 6px; text-align: center; color: rgb(0, 117, 181); line-height: 25px;
+}
+#often .onecate {
+	padding: 2px 0px 0px 2px; width: 126px; float: left;
+}
+* html #often .onecate {
+	padding: 2px 0px 0px; margin-left: 1px;
+}
+#often .onecate h2 {
+	background: rgb(195, 224, 245); margin: 0px 1px 1px 0px; padding: 0px; border: currentColor; width: 126px; text-align: center; line-height: 25px; font-size: 12px; font-weight: normal;
+}
+.onecate ul {
+	list-style: none; margin: 0px; padding: 0px;
+}
+.onecate li {
+	background: rgb(247, 247, 247); margin: 0px; width: 126px;
+}
+.onecate li a {
+	background: rgb(249, 249, 249); margin: 0px 1px 0px 0px; width: 126px; text-align: center; line-height: 25px; text-decoration: none; display: block;
+}
+* html .onecate li a {
+	margin: 0px;
+}
+.onecate li a:hover {
+	background: rgb(229, 240, 248); color: rgb(0, 0, 51); text-decoration: underline;
+}
+.onecate li:hover {
+	background: rgb(255, 255, 255);
+}
+.other {
+	margin: 8px 0px 0px 8px; border: 1px solid rgb(137, 212, 248); width: 334px; float: left; background-color: rgb(255, 255, 255);
+}
+.other2 {
+	margin: 8px 0px 0px 8px; border: 1px solid rgb(137, 212, 248); width: 678px; float: left; background-color: rgb(255, 255, 255);
+}
+.other h2 {
+	background: url("../images/h2_bg.gif") repeat-x; margin: 0px 1px; padding: 0px 6px; height: 25px; color: rgb(0, 117, 181); line-height: 25px;
+}
+.other2 h2 {
+	background: url("../images/h2_bg.gif") repeat-x; margin: 0px 1px; padding: 0px 6px; height: 25px; color: rgb(0, 117, 181); line-height: 25px;
+}
+#softlist h2 {
+	background: url("../images/h2_bg.gif") repeat-x; margin: 0px 1px; padding: 0px 6px; height: 25px; color: rgb(0, 117, 181); line-height: 25px;
+}
+#down h2 {
+	background: url("../images/nav_bg.gif") repeat-x; margin: 0px 1px; padding: 0px 6px; height: 28px; color: rgb(0, 74, 114); line-height: 28px; border-bottom-color: rgb(201, 232, 250); border-bottom-width: 1px; border-bottom-style: solid;
+}
+#intro h2 {
+	background: url("../images/nav_bg.gif") repeat-x; margin: 0px 1px; padding: 0px 6px; height: 28px; color: rgb(0, 74, 114); line-height: 28px; border-bottom-color: rgb(201, 232, 250); border-bottom-width: 1px; border-bottom-style: solid;
+}
+#downurl h2 {
+	background: url("../images/nav_bg.gif") repeat-x; margin: 0px 1px; padding: 0px 6px; height: 28px; color: rgb(0, 74, 114); line-height: 28px; border-bottom-color: rgb(201, 232, 250); border-bottom-width: 1px; border-bottom-style: solid;
+}
+#attention h2 {
+	background: url("../images/nav_bg.gif") repeat-x; margin: 0px 1px; padding: 0px 6px; height: 28px; color: rgb(0, 74, 114); line-height: 28px; border-bottom-color: rgb(201, 232, 250); border-bottom-width: 1px; border-bottom-style: solid;
+}
+#softcomments h2 {
+	background: url("../images/nav_bg.gif") repeat-x; margin: 0px 1px; padding: 0px 6px; height: 28px; color: rgb(0, 74, 114); line-height: 28px; border-bottom-color: rgb(201, 232, 250); border-bottom-width: 1px; border-bottom-style: solid;
+}
+#postcomment h2 {
+	background: url("../images/nav_bg.gif") repeat-x; margin: 0px 1px; padding: 0px 6px; height: 28px; color: rgb(0, 74, 114); line-height: 28px; border-bottom-color: rgb(201, 232, 250); border-bottom-width: 1px; border-bottom-style: solid;
+}
+#hotcomments h2 {
+	background: url("../images/nav_bg.gif") repeat-x; margin: 0px 1px; padding: 0px 6px; height: 28px; color: rgb(0, 74, 114); line-height: 28px; border-bottom-color: rgb(201, 232, 250); border-bottom-width: 1px; border-bottom-style: solid;
+}
+#userbox h2 {
+	background: url("../images/nav_bg.gif") repeat-x; margin: 0px 1px; padding: 0px 6px; height: 28px; color: rgb(0, 74, 114); line-height: 28px; border-bottom-color: rgb(201, 232, 250); border-bottom-width: 1px; border-bottom-style: solid;
+}
+#recentnew h2 {
+	background: url("../images/nav_bg.gif") repeat-x; margin: 0px 1px; padding: 0px 6px; height: 28px; color: rgb(0, 74, 114); line-height: 28px; border-bottom-color: rgb(201, 232, 250); border-bottom-width: 1px; border-bottom-style: solid;
+}
+#intro h2 {
+	background: rgb(234, 246, 255);
+}
+#downurl h2 {
+	background: rgb(234, 246, 255);
+}
+#attention h2 {
+	background: rgb(234, 246, 255);
+}
+#softcomments h2 {
+	background: rgb(234, 246, 255);
+}
+#postcomment h2 {
+	background: rgb(234, 246, 255);
+}
+#hotcomments h2 {
+	background: rgb(234, 246, 255);
+}
+#userbox h2 {
+	background: rgb(234, 246, 255);
+}
+#recentnew h2 {
+	background: rgb(234, 246, 255);
+}
+#intro h2 span {
+	color: rgb(3, 141, 217); font-size: 11px;
+}
+#downurl h2 span {
+	color: rgb(3, 141, 217); font-size: 11px;
+}
+#attention h2 span {
+	color: rgb(3, 141, 217); font-size: 11px;
+}
+#softcomments h2 span {
+	color: rgb(3, 141, 217); font-size: 11px;
+}
+#postcomment h2 span {
+	color: rgb(3, 141, 217); font-size: 11px;
+}
+#hotcomments h2 span {
+	color: rgb(3, 141, 217); font-size: 11px;
+}
+.other h2 span {
+	width: 100px; float: left;
+}
+.other2 h2 span {
+	width: 100px; float: left;
+}
+.other h2 a {
+	background: rgb(255, 255, 255); padding: 3px; border: 1px solid rgb(137, 212, 248); margin-top: 6px; float: right; display: block;
+}
+.other2 h2 a {
+	background: rgb(255, 255, 255); padding: 3px; border: 1px solid rgb(137, 212, 248); margin-top: 6px; float: right; display: block;
+}
+.other h2 a:hover {
+	background: rgb(255, 255, 255); border: 1px solid rgb(134, 197, 53);
+}
+.other2 h2 a:hover {
+	background: rgb(255, 255, 255); border: 1px solid rgb(134, 197, 53);
+}
+.other li a {
+	width: 265px; height: 25px; overflow: hidden; float: left;
+}
+.other2 li a {
+	width: 470px; height: 25px; overflow: hidden; float: left;
+}
+.other li span {
+	color: rgb(3, 141, 217); font-size: 11px; float: right;
+}
+.other2 li span {
+	color: rgb(3, 141, 217); font-size: 11px; float: right;
+}
+.other li span.new {
+	color: rgb(255, 74, 134);
+}
+.other2 li span.new {
+	color: rgb(255, 74, 134);
+}
+#abc {
+	background: rgb(249, 253, 219); margin: 10px 0px; padding: 1px 2px -8px 1px; border: 4px solid rgb(23, 228, 79); height: 0px;  font-weight: bold;
+}
+* html #abc {
+	padding: 8px 0px 3px 10px;
+}
+#abc span {
+	background: url("../images/abc_bg.gif") no-repeat; padding: 3px 4px 1px; color: rgb(159, 101, 54); margin-right: 8px; float: left;
+}
+#abc a {
+	background: url("../images/abc_a.gif") 0px -40px; margin: 0px 3px; width: 20px; height: 20px; text-align: center; color: rgb(159, 101, 54); line-height: 19px; text-decoration: none; float: left; display: block;
+}
+#abc a:hover {
+	background: url("../images/abc_a.gif") 0px -20px; color: rgb(0, 118, 175);
+}
+#abc span#totop {
+	padding: 5px 0px 0px; font-size: 12px; float: right;
+}
+#abc span#totop a {
+	background: url("../images/totop.gif") no-repeat left 0px; padding: 0px 0px 0px 15px; width: auto; line-height: normal;
+}
+#abc span#totop a:hover {
+	color: rgb(16, 92, 182); text-decoration: underline;
+}
+#footer {
+	background: url("../images/footer_bg.gif") no-repeat top; padding: 10px 0px 5px; text-align: center; color: rgb(0, 114, 187); margin-top: 5px;
+}
+#footer p {
+	margin: 0px; padding: 0px; line-height: 23px;
+}
+#footer p strong {
+	color: rgb(0, 133, 218);
+}
+#footer p span {
+	color: rgb(255, 51, 153);
+}
+#footer p span#com {
+	color: rgb(51, 51, 51);
+}
+#nav {
+	background: url("../images/nav_bg.gif") repeat-x; margin: 0px 0px 6px; padding: 0px 8px; border: 1px solid rgb(137, 212, 248); height: 28px; color: rgb(0, 114, 187); line-height: 28px;
+}
+#nav a {
+	text-decoration: none;
+}
+#catrecom li a {
+	text-decoration: none;
+}
+#nav a:hover {
+	text-decoration: underline;
+}
+#map {
+	border: 1px solid rgb(137, 212, 248); height: 100%;
+}
+#map h2 {
+	background: url("../images/nav_bg.gif") repeat-x; margin: 0px 1px; height: 28px; color: rgb(0, 117, 181); line-height: 28px; padding-left: 8px; clear: both; border-bottom-color: rgb(255, 255, 255); border-bottom-width: 2px; border-bottom-style: solid;
+}
+* html #map h2 {
+	padding: 5px 0px 0px 8px; height: 23px;
+}
+#map h2 strong {
+	margin-left: 790px;
+}
+#map ul {
+	list-style: none; margin: 0px; padding: 0px 0px 0px 2px;
+}
+* html #map ul {
+	padding: 0px;
+}
+#map li {
+	background: rgb(249, 249, 249); margin: 0px 2px 2px 0px; width: 126px; text-align: center; line-height: 25px; float: left;
+}
+#map li a {
+	text-decoration: none;
+}
+#map li:hover {
+	background: rgb(229, 240, 248);
+}
+#map li a.rss {
+	color: rgb(153, 153, 153); font-size: 10px;
+}
+#map li a.rss:hover {
+	color: rgb(0, 102, 204);
+}
+#layout {
+	background: url("../images/layout_bg.gif") repeat-y left 0%; width: 900px;
+}
+#layoutborder {
+	background: url("../images/layout_border.gif") no-repeat left bottom; width: 900px;
+}
+#main {
+	width: 694px; float: right;
+}
+#sidebar {
+	background: rgb(255, 255, 255); width: 198px; float: left;
+}
+#softlist {
+	background: rgb(251, 253, 255); border: 1px solid rgb(137, 212, 248);
+}
+#down {
+	background: rgb(251, 253, 255); border: 1px solid rgb(137, 212, 248);
+}
+#intro {
+	background: rgb(251, 253, 255); border: 1px solid rgb(137, 212, 248);
+}
+#downurl {
+	background: rgb(251, 253, 255); border: 1px solid rgb(137, 212, 248);
+}
+#attention {
+	background: rgb(251, 253, 255); border: 1px solid rgb(137, 212, 248);
+}
+#softcomments {
+	background: rgb(251, 253, 255); border: 1px solid rgb(137, 212, 248);
+}
+#softcomments .btn1 {
+	background: url("../images/bg_btn1.gif") repeat-x rgb(255, 255, 255); border: 1px solid rgb(71, 108, 158); width: 70px; height: 24px; color: rgb(62, 94, 138); line-height: 24px; font-size: 12px; cursor: pointer;
+}
+#down {
+	height: 100%; min-height: 325px;
+}
+#cats ul {
+	list-style: none; margin: 0px; padding: 3px 0px 8px 15px;
+}
+#cats li {
+	background: url("../images/li_cat.gif") no-repeat left 45%; width: 70px; line-height: 25px; padding-left: 20px; float: left;
+}
+#cattop {
+	margin: 8px 0px;
+}
+#softlist h2 strong {
+	color: rgb(0, 102, 51);
+}
+#down h2 strong {
+	color: rgb(0, 102, 51);
+}
+#down h2 span {
+	width: 600px; float: left;
+}
+#softlist h2 a {
+	font-size: 12px; text-decoration: none; float: right;
+}
+#down h2 a {
+	font-size: 12px; text-decoration: none; float: right;
+}
+#softlist h2 a:hover {
+	text-decoration: underline;
+}
+#down h2 a:hover {
+	text-decoration: underline;
+}
+#softlist p {
+	background: rgb(255, 254, 248); margin: 8px 6px; padding: 4px 6px; border: 1px solid rgb(240, 220, 167); color: rgb(153, 153, 153); line-height: 21px; font-weight: bold;
+}
+#softlist p a {
+	color: rgb(131, 68, 59); font-weight: normal; text-decoration: none; margin-left: 3px;
+}
+#softlist p a:hover {
+	text-decoration: underline;
+}
+#softlist ul {
+	list-style: none; margin: 6px; padding: 0px;
+}
+#softlist li.title {
+	background: url("../images/li_softname.gif") no-repeat left 5px; height: 25px; color: rgb(178, 178, 178); line-height: 25px; overflow: hidden; padding-left: 22px;
+}
+#softlist li.title a.softname {
+	font-size: 14px; font-weight: bold;
+}
+#softlist li.title a.cat {
+	color: rgb(3, 141, 217); text-decoration: none;
+}
+#softlist li.title a.cat:hover {
+	text-decoration: underline;
+}
+#softlist li span {
+	color: rgb(3, 141, 217);
+}
+#softlist li.intro {
+	background: rgb(248, 248, 248); padding: 3px 0px 3px 22px; height: 42px; color: rgb(136, 136, 136); line-height: 21px; overflow: hidden; margin-top: 6px;
+}
+#softlist li.meta {
+	padding: 3px 0px 3px 22px; color: rgb(136, 136, 136);
+}
+#softlist li.meta a {
+	color: rgb(3, 141, 217); text-decoration: none;
+}
+#softlist li.meta a:hover {
+	text-decoration: underline;
+}
+#pagenav {
+	background: rgb(239, 247, 251); padding: 0px 6px; border: 1px solid rgb(137, 212, 248); height: 27px; line-height: 27px; margin-top: 8px;
+}
+#pagenav strong {
+	color: rgb(16, 92, 182);
+}
+#pagenav span#pages {
+	float: left;
+}
+#pagenav span#pagego {
+	float: right;
+}
+* html #pagenav span#pagego {
+	padding-top: 2px;
+}
+span#pagego a {
+	text-decoration: none;
+}
+span#pagego a:hover {
+	text-decoration: underline;
+}
+#pagenav span a {
+	margin: 0px 5px;
+}
+#pagenav input#pagenum {
+	padding: 1px 0px; border: 1px solid rgb(153, 153, 153); width: 28px; font-family: Verdana;
+}
+#pagenav img#gopage {
+	padding-bottom: 4px; vertical-align: middle;
+}
+#down ul {
+	list-style: none; margin: 3px 0px; padding: 0px 0px 0px 7px; width: 330px; float: left;
+}
+#down li {
+	line-height: 21px;
+}
+#down li a {
+	text-decoration: none;
+}
+#down li#check {
+	background: rgb(252, 255, 246); margin: 3px 0px 6px; padding: 4px 5px; border: 1px solid rgb(191, 219, 137);
+}
+#softcomments p {
+	background: rgb(252, 255, 246); margin: 3px 0px 6px; padding: 4px 5px; border: 1px solid rgb(191, 219, 137);
+}
+#softcomments p {
+	margin: 8px 6px; text-align: right; line-height: 21px;
+}
+#softcomments p a {
+	text-decoration: none;
+}
+#softcomments p span {
+	float: left;
+}
+#down li#check strong {
+	color: rgb(0, 102, 51); font-weight: normal;
+}
+#down li span {
+	margin-left: 3px;
+}
+#down li span#plugin img {
+	vertical-align: middle;
+}
+* html #down li span#plugin img {
+	padding-bottom: 5px;
+}
+#screenshot {
+	margin-left: 40px; float: right;
+}
+* html #screenshot {
+	margin-bottom: 4px;
+}
+#screenshot p {
+	background: rgb(255, 254, 248); border-width: medium medium 1px 1px; border-style: none none solid solid; border-color: currentColor currentColor rgb(201, 232, 250) rgb(201, 232, 250); margin: 0px 0px 15px; padding: 0px 6px; text-align: center; line-height: 27px;
+}
+#screenshot p a {
+	text-decoration: none;
+}
+#screenshot h3 {
+	padding: 0px; border: currentColor; color: rgb(153, 153, 153); font-size: 12px; margin-bottom: 8px;
+}
+#screenshot img {
+	background: rgb(255, 254, 248); margin: 0px 4px 3px 0px; padding: 2px; border: 1px solid rgb(201, 232, 250); width: 260px; height: 214px;
+}
+#screenshot a img:hover {
+	border: 1px solid rgb(0, 102, 204);
+}
+#intro {
+	margin: 8px 0px;
+}
+#attention {
+	margin: 8px 0px;
+}
+#intro p {
+	margin: 0px; padding: 7px; line-height: 21px;
+}
+#downurl ul {
+	list-style: none; margin: 0px; padding: 7px;
+}
+#attention ul {
+	list-style: none; margin: 0px; padding: 7px;
+}
+#downurl li {
+	line-height: 25px; font-size: 14px; font-weight: bold;
+}
+#downurl li a {
+	background: url("../images/li_downurl.gif") no-repeat left 0%; padding-left: 21px; text-decoration: none;
+}
+#downurl li a:hover {
+	text-decoration: underline;
+}
+#softcomments ul {
+	background: rgb(252, 252, 252); list-style: none; margin: 6px; padding: 4px 5px; border: 1px solid rgb(201, 232, 250);
+}
+#softcomments li {
+	text-align: right; line-height: 21px;
+}
+#softcomments li span {
+	float: left;
+}
+#softcomments li strong {
+	color: rgb(0, 102, 204); font-weight: normal;
+}
+#softcomments li.words {
+	height: 21px; text-align: left; overflow: hidden;
+}
+#softcomments li a {
+	text-decoration: none;
+}
+#postcomment {
+	background: rgb(251, 253, 255); margin: 0px 6px; padding: 0px 0px 6px; border: 1px solid rgb(137, 212, 248);
+}
+#postcomment form {
+	margin: 0px; padding: 0px;
+}
+#postcomment p {
+	margin: 1px 7px; padding: 0px; border: currentColor; text-align: left; line-height: 21px;
+}
+#postcomment img {
+	padding-bottom: 3px; margin-right: 2px; vertical-align: bottom;
+}
+#postcomment input {
+	background: rgb(255, 255, 255); margin: 3px 5px 1px 0px; padding: 3px 4px; border: 1px solid rgb(189, 225, 131); width: 160px; height: 14px; font-family: Verdana; font-size: 12px;
+}
+#postcomment textarea {
+	background: rgb(255, 255, 255); margin: 3px 5px 1px 0px; padding: 3px 4px; border: 1px solid rgb(189, 225, 131); width: 96%; font-family: Verdana; font-size: 12px;
+}
+#postcomment #submit {
+	margin: 0px; padding: 0px; border: currentColor; width: 161px; height: 30px; float: left;
+}
+#hotcomments {
+	background: rgb(251, 253, 255); border: 1px solid rgb(137, 212, 248); width: 49%; margin-top: 8px; float: right;
+}
+#userbox {
+	background: rgb(251, 253, 255); border: 1px solid rgb(137, 212, 248);
+}
+
+#userbox h2 {
+	text-align: center;
+}
+#userbox p {
+	margin: 10px 0px;
+}
+#userbox .input {
+	background: rgb(248, 248, 248); font: 16px/normal verdana; padding: 4px; border: 2px dashed rgb(137, 212, 248); font-size-adjust: none; font-stretch: normal;
+}
+#userbox .inputfocus {
+	background: rgb(255, 255, 255); font: 16px/normal verdana; padding: 4px; border: 2px solid rgb(137, 212, 248); font-size-adjust: none; font-stretch: normal;
+}
+#reguser {
+	margin: 15px 0px 15px 335px;
+}
+#other2 span.softnametitle {
+	width: 524px; text-align: center; float: left;
+}
+#other2 span.date {
+	width: 100px; height: 25px; text-align: center; overflow: hidden; float: left;
+}
+#other2 span.star {
+	width: 100px; height: 25px; text-align: center; overflow: hidden; float: left;
+}
+#recentnew span.softsize {
+	width: 100px; height: 25px; text-align: center; overflow: hidden; float: left;
+}
+#recentnew span.hits {
+	width: 60px; text-align: center; float: left;
+}
+#recentnew span.cate {
+	text-align: center; margin-left: 5px; float: left;
+}
+#recentnew ul {
+	list-style: none; margin: 0px; padding: 0px;
+}
+#recentnew li {
+	line-height: 25px; clear: both; border-bottom-color: rgb(201, 232, 250); border-bottom-width: 1px; border-bottom-style: dotted;
+}
+#recentnew li:hover {
+	background: rgb(234, 246, 255);
+}
+#recentnew li a {
+	text-decoration: none;
+}
+#recentnew li a:hover {
+	text-decoration: underline;
+}
+#recentnew ul li a.softname {
+	background: url("../images/arrow.gif") no-repeat left 10px; margin: 0px 0px 0px 7px; padding: 0px 0px 0px 10px; width: 450px; height: 25px; overflow: hidden; float: left;
+}
+#recentnew li img {
+	padding-top: 5px;
+}
+p#search {
+	background: rgb(255, 249, 198); border-width: 2px medium; border-style: solid none; border-color: rgb(245, 231, 110) currentColor; margin: 8px 0px; padding: 0px 6px; color: rgb(211, 129, 0); line-height: 27px;
+}
+p#pages {
+	background: rgb(255, 249, 198); border-width: 2px medium; border-style: solid none; border-color: rgb(245, 231, 110) currentColor; margin: 8px 0px; padding: 0px 6px; color: rgb(211, 129, 0); line-height: 27px;
+}
+span.keyword {
+	color: red; font-weight: bold;
+}
+p#search strong {
+	color: rgb(16, 92, 182);
+}
+#results ul {
+	list-style: none; margin: 17px 0px; padding: 0px;
+}
+#results li.softname {
+	line-height: 28px; font-size: 14px; font-weight: bold;
+}
+#results li.softintro {
+	line-height: 21px;
+}
+#results li.softintro a {
+	color: green; text-decoration: none;
+}
+#results li.softintro a:hover {
+	color: green; text-decoration: underline;
+}
+#results li.softmeta {
+	line-height: 21px;
+}
+#results li.softmeta a {
+	text-decoration: none;
+}
+#links a {
+	text-decoration: none;
+}
+#results li.softmeta a:hover {
+	text-decoration: underline;
+}
+#dropin {
+	background: rgb(254, 254, 254); margin: 0px auto; border: 4px solid rgb(221, 221, 221); left: 30%; top: 50%; width: 371px; height: 240px; text-align: center; visibility: hidden; position: absolute;
+}
+#signBox {
+	margin: 0px auto; padding: 0px;
+}
+#signBox img {
+	border: 0px currentColor;
+}
+#signBox #closesignBox {
+	top: 0px; right: 0px; position: absolute;
+}
+#loginBox {
+	margin: 10px 65px; text-align: left;
+}
+#loginul {
+	margin: 10px 0px 0px 7px; padding: 0px;
+}
+#loginul li {
+	list-style: none; padding: 0px; text-align: left; font-size: 14px; font-weight: bold; margin-bottom: 10px;
+}
+#signBox input {
+	padding: 0px; border: 1px solid rgb(169, 186, 201);
+}
+#loginul .ind1 {
+	font-size: 12px; margin-left: 45px;
+}
+#loginul .ind2 {
+	margin-top: 10px; margin-left: 45px;
+}
+#loginBox h3 {
+	margin: 10px 0px; text-align: center; color: rgb(102, 153, 0); font-size: 16px;
+}
+#loginBox .qlink {
+	margin: 20px 0px 0px 30px; padding: 10px 0px; clear: both; font-size: 12px;
+}
+#loginBox .qlink a {
+	margin: 0px 5px;
+}
+#signBox .box1 {
+	background: url("../images/bg_box1.gif") no-repeat rgb(255, 255, 255); font: 12px/22px verdana; padding: 0px 3px; border: 1px solid rgb(169, 186, 201); width: 144px; height: 22px; font-size-adjust: none; font-stretch: normal;
+}
+.box2 {
+	background: url("../images/bg_box1.gif") no-repeat rgb(255, 255, 255); font: 12px/22px verdana; padding: 0px 3px; border: 1px solid rgb(169, 186, 201); width: 144px; height: 22px; font-size-adjust: none; font-stretch: normal;
+}
+#signBox .box2 {
+	background: url("../images/bg_box1.gif") no-repeat rgb(255, 255, 255); padding: 0px 3px; border: 1px solid rgb(158, 204, 0);
+}
+#signBox .btn1 {
+	background: url("../images/bg_btn1.gif") repeat-x rgb(255, 255, 255); border: 1px solid rgb(71, 108, 158); width: 70px; height: 24px; color: rgb(86, 120, 166); line-height: 24px; font-size: 12px; cursor: pointer;
+}
+#signBox .btn2 {
+	background: url("../images/bg_btn2.gif") repeat-x rgb(255, 255, 255); border: 1px solid rgb(71, 108, 158); width: 135px; height: 30px; color: rgb(65, 103, 155); line-height: 30px; font-size: 12px; font-weight: bold; cursor: pointer;
+}
+#signBox .lb1 {
+	background: rgb(252, 255, 246); border-width: 1px; border-style: solid; border-color: rgb(179, 213, 230) rgb(179, 213, 230) rgb(201, 232, 250) rgb(201, 232, 250); padding: 0px 6px; width: 70px; line-height: 23px;
+}
+#signBox .lb1 select {
+	font-size: 12px;
+}
+#signBox .lb2 {
+	border: 1px solid rgb(179, 213, 230); width: 70px; height: 24px; margin-left: 8px; float: left;
+}
+#signBox .lb3 {
+	border: 1px solid rgb(204, 255, 0); width: 70px; height: 24px; float: left;
+}
+#signBox .lb4 {
+	border: 1px solid rgb(204, 255, 0); width: 70px; height: 24px; margin-left: 8px; float: left;
+}
+#signBox .lb5 {
+	margin: 10px auto auto; border: 1px solid rgb(179, 213, 230); width: 135px; height: 30px;
+}
+#signBox .lb6 {
+	margin: 10px auto auto; border: 1px solid rgb(204, 255, 0); width: 135px; height: 30px;
+}
+#regbox {
+	margin: 0px auto; padding-top: 10px; font-size: 12px; border-top-color: rgb(204, 204, 204); border-top-width: 1px; border-top-style: solid;
+}
+#getubb {
+	background: rgb(252, 255, 246); padding: 0px 6px; line-height: 23px; border-bottom-color: rgb(201, 232, 250); border-left-color: rgb(201, 232, 250); border-bottom-width: 1px; border-left-width: 1px; border-bottom-style: solid; border-left-style: solid; float: right;
+}
+#links {
+	background: rgb(251, 253, 255); margin: 8px 0px 0px; padding: 1px 2px 0px 1px; border: 1px solid rgb(137, 212, 248);
+}
+#links a {
+	background: rgb(239, 243, 248); margin: 0px 1px 1px 0px; width: 98px; text-align: center; line-height: 20px; float: left; display: block;
+}
+#links a:hover {
+	background: rgb(207, 219, 233);
+}
+#tuijing h2 {
+	margin: 0px 1px; padding: 0px 6px; color: rgb(0, 117, 177); line-height: 25px; background-image: url("../images/h2_bg.gif"); background-repeat: repeat-x;
+}
+#tuijing {
+	border: 1px solid rgb(137, 212, 248); width: 196px; height: 282px; margin-right: 0px; margin-bottom: 8px; margin-left: 0px; background-color: rgb(255, 255, 255);
+}
+#tuijing ul {
+	list-style: none; margin: 0px; padding: 3px 0px 8px 15px;
+}
+
+* {
+	margin: 0px; padding: 0px;
+}
+.clear_float {
+	height: 1px; clear: both;
+}
+.float_left {
+	float: left;
+}
+.float_right {
+	float: right;
+}
+img {
+	border: 0px currentColor;
+}
+.mainimg1 {
+	background: rgb(255, 255, 255); margin: 0px auto; border: 1px solid rgb(199, 213, 220); width: 900px; clear: both;
+}
+.mainimg2 {
+	background: rgb(255, 255, 255); margin: 2px auto 0px; border: 1px solid rgb(199, 213, 220); width: 900px; clear: both;
+}
+#top {
+	background: rgb(246, 246, 246); padding: 0px 15px 0px 3px; height: 25px; line-height: 22px; border-top-color: rgb(169, 201, 226); border-bottom-color: rgb(228, 228, 228); border-top-width: 2px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid;
+}
+#top ul {
+	list-style: none; margin: 0px; padding: 0px;
+}
+#top ul li {
+	background: url("../images/arrow_01.gif") no-repeat 5px 11px; width: 63px; text-indent: 12px; padding-top: 3px; float: left; display: block;
+}
+#top a:link {
+	color: rgb(102, 102, 102); text-decoration: none;
+}
+#top a:visited {
+	color: rgb(102, 102, 102); text-decoration: none;
+}
+#top a:hover {
+	color: rgb(0, 74, 156); text-decoration: underline;
+}
+.button {
+	background: url("../images/t_submit.gif"); border: 1px solid rgb(228, 228, 228); width: 45px; height: 17px; color: rgb(102, 102, 102); line-height: 15px; cursor: pointer;
+}
+.header_textbox {
+	background: rgb(242, 246, 251); border: 1px solid rgb(176, 215, 255); width: 220px; height: 58px; padding-left: 3px; margin-top: 5px; float: right;
+}
+.header_textbox li {
+	list-style: none; padding: 8px 4px 4px 0px; height: 13px; line-height: 18px; overflow: hidden; float: left; position: static; cliptop: 0px; clipright: 0px; clipbottom: 0px; clipleft: 0px;
+}
+.header_textbox ul {
+	margin: 0px; padding: 0px;
+}
+.f_blue {
+	color: rgb(0, 0, 255);
+}
+a.f_blue:link {
+	color: rgb(0, 0, 255);
+}
+a.f_blue:visited {
+	color: rgb(0, 0, 255);
+}
+.f_brown {
+	color: rgb(153, 0, 0);
+}
+a.f_brown:link {
+	color: rgb(153, 0, 0);
+}
+a.f_brown:visited {
+	color: rgb(153, 0, 0);
+}
+.f_dgray {
+	color: rgb(102, 102, 102);
+}
+a.f_dgray:link {
+	color: rgb(102, 102, 102);
+}
+a.f_dgray:visited {
+	color: rgb(102, 102, 102);
+}
+.f_gray {
+	color: rgb(79, 84, 77);
+}
+a.f_gray:link {
+	color: rgb(79, 84, 77);
+}
+a.f_gray:visited {
+	color: rgb(79, 84, 77);
+}
+.f_green {
+	color: rgb(0, 128, 0);
+}
+a.f_green:link {
+	color: rgb(0, 128, 0);
+}
+a.f_green:visited {
+	color: rgb(0, 128, 0);
+}
+.f_red {
+	color: rgb(255, 0, 0);
+}
+a.f_red:link {
+	color: rgb(255, 0, 0);
+}
+a.f_red:visited {
+	color: rgb(255, 0, 0);
+}
+.nav_sub a:hover {
+	color: rgb(255, 0, 0);
+}
+.header_nav {
+	margin: auto;
+}
+.global_nav {
+	background: url("../images/nav_bg_1.gif") repeat-x; margin: 0px auto; padding: 0px; height: 55px; clear: left;
+}
+.nav_left {
+	background: url("../images/nav_lr.gif") no-repeat 0px 0px; width: 2px; height: 28px; margin-top: -3px; float: left;
+}
+.nav_right {
+	background: url("../images/nav_lr.gif") no-repeat -1px 0px; width: 2px; height: 28px; margin-top: -3px; float: right;
+}
+.msl {
+	padding: 9px 15px 0px 10px; height: 20px; text-align: left;
+}
+.f_gray {
+	color: rgb(79, 84, 77);
+}
+a.f_gray:link {
+	color: rgb(79, 84, 77);
+}
+a.f_gray:visited {
+	color: rgb(79, 84, 77);
+}
+.nav_current {
+	background: url("../images/nav_button.gif") no-repeat 0px -58px; width: 92px; height: 21px; padding-top: 8px; font-size: 14px; font-weight: bold; text-decoration: none; float: left; display: block;
+}
+a.f_nav:link {
+	height: 14px; color: rgb(51, 51, 51); text-decoration: none; display: block;
+}
+a.f_nav:visited {
+	color: rgb(51, 51, 51);
+}
+a.f_nav:hover {
+	color: rgb(0, 0, 0); padding-top: 1px; text-decoration: none; display: block;
+}
+.nav_link {
+	background: url("../images/nav_button.gif") no-repeat; width: 92px; height: 21px; padding-top: 8px; font-size: 13px; text-decoration: none; float: left; cursor: pointer;
+}
+.nav_sub {
+	height: 21px; text-align: left; line-height: 21px;
+}
+.nav_sub a {
+	color: rgb(0, 0, 0); text-decoration: none;
+}
+.nav_sub li {
+	list-style: none; margin: 0px; padding: 7px 12px 3px 0px; height: 16px; display: inline;
+}
+.global_nav .nav_sjgg {
+	height: 20px; padding-left: 10px; margin-top: 3px; float: left;
+}
+.hidden {
+	display: none;
+}
+.undis {
+	display: none;
+}
+.sub_box {
+	width: 700px; height: 26px; text-align: left; padding-top: 2px; float: right;
+}
+.f_green {
+	color: rgb(0, 128, 0);
+}
+a.f_green:link {
+	color: rgb(0, 128, 0);
+}
+a.f_green:visited {
+	color: rgb(0, 128, 0);
+}
+.nav_main {
+	width: 755px; height: 29px;
+}
+.nav_main li {
+	list-style: none; text-align: center; float: left;
+}
+.nav_main a:link {
+	color: rgb(51, 51, 51); text-decoration: none;
+}
+.nav_main a:visited {
+	color: rgb(51, 51, 51); text-decoration: none;
+}
+.nav_main a:hover {
+	color: rgb(188, 41, 49);
+}
+.other_1 {
+	padding-top: 4px;
+}
+.other_2 {
+	padding: 0px 0px 1px 10px;
+}
+.other_3 {
+	margin: 5px 0px 0px 17px;
+}
+.other_4 {
+	margin: 5px 0px 0px;
+}
+#article1 {
+	background: rgb(251, 253, 255); margin: 1px auto 10px; padding: 1px; border: 1px solid rgb(137, 212, 248); width: 900px;
+}
+#getubb1 {
+	background: rgb(252, 255, 246); padding: 0px 6px; line-height: 23px; border-bottom-color: rgb(201, 232, 250); border-left-color: rgb(201, 232, 250); border-bottom-width: 1px; border-left-width: 1px; border-bottom-style: solid; border-left-style: solid; float: right;
+}

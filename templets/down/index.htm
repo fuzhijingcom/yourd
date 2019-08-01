@@ -1,0 +1,150 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>{dede:global.cfg_webname/}</title>
+<meta content="{dede:global.cfg_keywords/}" name="Keywords">
+<meta name="description" content="{dede:global.cfg_description/}" />
+<LINK href="{dede:global.cfg_templets_skin/}/style/pmdown.css" type=text/css rel=stylesheet>
+<LINK href="{dede:global.cfg_templets_skin/}/style/header.css" type=text/css rel=stylesheet>
+<base target="_blank">
+</HEAD>
+
+{dede:include filename="head.htm"/}
+       <div class="bgcontain">
+ 
+        </div>
+         <div class="bgcontain">
+       <div class="left">
+     <div id="recom2">
+      <h2>站内推荐</h2>
+      <ul>
+ <li>{dede:sql sql="SELECT count( * ) AS c FROM #@__archives WHERE pubdate > UNIX_TIMESTAMP( CURDATE( ) ) "}今日更新：[field:c /]个{/dede:sql}</li>
+ <li>{dede:sql sql="select count(*) as c from #@__archives where channel=3"}共刷机包：[field:c /]个{/dede:sql}</li>
+ <li>{dede:sql sql="select sum(click) as c from #@__archives"}下载次数：[field:c /]人次{/dede:sql}</li>
+      </ul>
+      </div>
+     <div id="recom">
+      <h2>站内推荐</h2>
+      <ul>
+        
+{dede:arclist    flag='c'   row='14'                 }
+        <li><a href="[field:arcurl/]">[field:title/]</a></li>
+{/dede:arclist}
+      </ul>
+      </div>
+      </div>
+      <div class="middle">
+      <div id="recently">
+      <h2><span>软件更新</span><a href="/"><img src="{dede:global.cfg_templets_skin/}/images/pm-gd.gif" alt="更多更新" border="0" /></a></h2>
+      <ul>
+        {dede:arclist   titlelen='60'  orderby ='pubdate'       row='15'     typeid ='1,2,3,4,5,6'       }
+
+        <li id="checkdate"><a class="soft" href="[field:arcurl/]">[field:title/]</a><span class="new">[field:pubdate function="MyDate('m-d',@me)"/]</span><a class="cate"href="[field:typeurl/]">[field:typename/]</a></li>
+
+ {/dede:arclist}
+      </ul>
+      </div>
+      <div id="banner01"><script src='/plus/ad_js.php?aid=22' language='javascript'></script>
+</div>
+       </div>
+      <div class="right">
+
+        <div id="cool">
+      <h2>刷机指导更新</h2>
+      <ul>
+{dede:arclist      row='19'     titlelen='28'      typeid ='7'       }
+        <li><a href="[field:arcurl/]">[field:title/]</a></li>
+{/dede:arclist}
+      </ul>
+     </div>
+     </div>
+     </div>
+	 
+    <div class="bgcontain">
+  <div id="often">
+   <script src='/plus/ad_js.php?aid=23' language='javascript'></script>
+ 
+ 
+</div>
+              <div class="bgcontain">
+              <div id="essential"> 
+              <h2 id="essentialTitle">热门下载</h2>              
+             <ul>
+{dede:arclist      row='10'  typeid ='1,2'   titlelen='60'     orderby ='click'        }
+        <li><a href="[field:arcurl/]">[field:title/]</a></li>
+{/dede:arclist}
+             </ul>
+              </div>
+            <div class="other">
+             <h2><span>联想刷机包</span><a href="/lxrom/"><img src="{dede:global.cfg_templets_skin/}/images/pm-gd.gif" alt="更多" border="0" /></a></h2>
+              <ul>
+      {dede:arclist      row='10'     titlelen='80'    typeid ='1'         }
+       <li id="checkdate"><a class="soft" href="[field:arcurl/]" title="[field:title/]">[field:title/]</a><span class="new">[field:pubdate function="MyDate('m-d',@me)"/]</span></li>
+      {/dede:arclist}
+ 
+              </ul>
+                </div>
+            <div class="other"> 
+             <h2><span>三星刷机包</span><a href="/sxrom/"><img src="{dede:global.cfg_templets_skin/}/images/pm-gd.gif" alt="更多" border="0" /></a></h2>
+              <ul>
+      {dede:arclist      row='10'     titlelen='80'    typeid ='2'         }
+       <li id="checkdate"><a class="soft" href="[field:arcurl/]" title="[field:title/]">[field:title/]</a><span class="new">[field:pubdate function="MyDate('m-d',@me)"/]</span></li>
+      {/dede:arclist}
+              </ul>
+               </div>
+</div>
+                <div class="bgcontain">
+                 <div id="essential">
+                 <h2>热门下载</h2>
+                 <ul>
+{dede:arclist      row='10'  typeid ='3,4'   titlelen='60'     orderby ='click'        }
+        <li><a href="[field:arcurl/]">[field:title/]</a></li>
+{/dede:arclist}
+                   </ul>
+  </div>
+                 <div class="other">
+                 <h2><span>中兴刷机包</span><a href="/zxrom/"><img src="{dede:global.cfg_templets_skin/}/images/pm-gd.gif" alt="更多" border="0" /></a></h2>
+                 <ul>
+      {dede:arclist      row='10'     titlelen='80'    typeid ='3'         }
+       <li id="checkdate"><a class="soft" href="[field:arcurl/]" title="[field:title/]">[field:title/]</a><span class="new">[field:pubdate function="MyDate('m-d',@me)"/]</span></li>
+      {/dede:arclist}
+      </ul>
+                 </div>
+              <div class="other" id="kav">
+              <h2 id="kavTitle"><span>酷派刷机包</span><a href="/kprom/"><img src="{dede:global.cfg_templets_skin/}/images/pm-gd.gif" alt="更多" border="0" /></a></h2>
+              <ul>
+      {dede:arclist      row='10'     titlelen='80'    typeid ='4'         }
+       <li id="checkdate"><a class="soft" href="[field:arcurl/]" title="[field:title/]">[field:title/]</a><span class="new">[field:pubdate function="MyDate('m-d',@me)"/]</span></li>
+      {/dede:arclist}
+           </ul>
+              </div>
+              </div>
+             <div class="bgcontain">
+             <div id="alltop">
+             <h2>热门下载</h2>
+             <ul>
+{dede:arclist      row='10'  typeid ='5,6'   titlelen='60'     orderby ='click'        }
+        <li><a href="[field:arcurl/]">[field:title/]</a></li>
+{/dede:arclist}                      </ul>		  
+             </div>
+             <div class="other">
+             <h2><span>金立刷机包</span><a href="/jlrom/"><img src="{dede:global.cfg_templets_skin/}/images/pm-gd.gif" alt="更多" border="0" /></a></h2>
+             
+    <ul>
+      {dede:arclist      row='10'     titlelen='80'    typeid ='5'         }
+       <li id="checkdate"><a class="soft" href="[field:arcurl/]" title="[field:title/]">[field:title/]</a><span class="new">[field:pubdate function="MyDate('m-d',@me)"/]</span></li>
+      {/dede:arclist}                   </ul>
+             </div>
+             <div class="other">
+             
+    <h2><span>华为刷机包</span><a href="/hwrom/"><img src="{dede:global.cfg_templets_skin/}/images/pm-gd.gif" alt="更多" border="0" /></a></h2>
+             <ul>
+      {dede:arclist      row='10'     titlelen='80'    typeid ='6'         }
+       <li id="checkdate"><a class="soft" href="[field:arcurl/]" title="[field:title/]">[field:title/]</a><span class="new">[field:pubdate function="MyDate('m-d',@me)"/]</span></li>
+      {/dede:arclist}                   </ul>
+             </div>
+             </div>
+			 
+             </div>
+{dede:include filename="footer.htm"/}

@@ -1,0 +1,33 @@
+<div id="contain">
+<h1><a href="/">rom基地,rom之家,原厂rom,官方rom,rom刷机包,官方刷机包,romziyuan</a></h1>
+
+<div id="menu">
+<a href=""onclick="this.style.behavior='url(#default#homepage)';this.setHomePage('{dede:global.cfg_basehost/}');">设为首页</a> | <a href="javascript:window.external.AddFavorite('{dede:global.cfg_basehost/}','{dede:global.cfg_webname/}')">加入收藏</a> | <a href="{dede:global.cfg_cmsurl/}/data/sitemap.html" target="_blank">网站地图</a> | <a href="{dede:global.cfg_dataurl/}/rssmap.html" target="_blank">RSS地图</a>
+</div>
+<div class="clear"></div>
+
+<div id="nav">
+<div id="navbg">
+<a href="/">首页</a> {dede:channel type='top' row='15'}<a href='[field:typelink/]'>[field:typename/]</a>{/dede:channel}
+</div>
+</div>
+
+<div id="searchbox">
+<form name="searchform" method="get" action="{dede:field name='phpurl'/}/search.php">
+<input type="hidden" name="kwtype" value="0">
+<input type="hidden" name="searchtype" id="searchtype" class="kw1" value="titlekeyword">
+<input name="keyword" type="text" id="key" /> <input type="image" id="searchbutton" value="搜索" src="{dede:field name='templeturl'/}/images/search.png" />
+</form>
+<script type="text/javascript">
+document.searchform.keyword.focus();
+</script>
+<p>
+
+热门搜索: {dede:hotwords num='5' subday='30'/}
+
+</p>
+</div>
+
+<div id="userbox">
+
+</div>
