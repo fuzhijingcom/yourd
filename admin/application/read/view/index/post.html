@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <script charset="utf-8" src="__PUBLIC__/post_files/hl.js.下载"></script>
+  <script src="__PUBLIC__/post_files/hctm" type="text/javascript" charset="UTF-8"></script>
+  <script type="text/javascript" async="" src="__PUBLIC__/post_files/hctm(1)"></script>
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="Cache-Control" content="no-transform">
+  <meta http-equiv="Cache-Control" content="no-siteapp">
+  <meta name="renderer" content="webkit">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta name="generator" content="Z-BlogPHP 1.4 Deeplue Build 150101">
+  <meta name="applicable-device" content="pc,mobile">
+  <link rel="stylesheet" href="__PUBLIC__/post_files/bootstrap.min.css">
+  <link rel="stylesheet" href="__PUBLIC__/post_files/font-awesome.min.css">
+  <link rel="stylesheet" href="__PUBLIC__/post_files/offcanvas.min.css">
+  <link rel="stylesheet" href="__PUBLIC__/post_files/swiper.min.css">
+  <link rel="stylesheet" href="__PUBLIC__/post_files/style.css">
+  <style>
+    ::-moz-selection {
+      background: #0099cc
+    }
+
+    ::selection {
+      background: #0099cc
+    }
+
+    .icon-bar,
+    .nav li a:hover,
+    .nav li a:focus,
+    ul.nav li:hover,
+    .current-menu-item,
+    ul.nav ul li a:hover,
+    .swiper-pagination-bullet-active,
+    .post-istop .istop:hover,
+    .media-heading span,
+    .media-left span,
+    #my-gallery-container .item dt span,
+    .pagebar a:focus,
+    .pagebar a:hover,
+    .comment-pagebar a:focus,
+    .comment-pagebar a:hover,
+    .pagebar .now-page,
+    .comment-pagebar .now-page,
+    .mutuality .mutuality-pic:hover,
+    .comment-form input[type='submit'],
+    .comment-form input[type='submit']:hover,
+    .list-group .active,
+    .list-group .active:hover,
+    .list-group .active:focus,
+    .kefu .phone .phones,
+    #divSearchPanel form input[type='submit'] {
+      background: #0099cc
+    }
+
+    a,
+    a:hover,
+    a:focus,
+    .searchform_button,
+    .login_button,
+    .multi i,
+    .post-multi .post-article i,
+    .post-multi .photo-title a:hover,
+    .post-multi .photo-title a:focus,
+    .media-heading a:hover,
+    #divPrevious li a:hover,
+    #divPrevious li a:focus,
+    #divComments li a:hover,
+    #divComments li a:focus,
+    #divNewpost li a:hover,
+    #divNewpost li a:focus,
+    #divHotpost li a:hover,
+    #divHotpost li a:focus,
+    #divNewcomm dd span,
+    #divReaders a:hover,
+    #divReaders a:focus,
+    .links .links-txt li a:hover,
+    .single-tags li a,
+    .comments-title i,
+    .comments-title small,
+    .post-comment .comment-title i,
+    .post-comment .comment-title a,
+    div.go-top:hover,
+    .error-404,
+    .sitecolor,
+    .kefu a:hover,
+    .kefu i:hover,
+    #sidebar .function_t:before,
+    #comment-tools a:hover {
+      color: #0099cc
+    }
+
+    .post-multi .post-article:hover {
+      border-left: 3px solid #0099cc
+    }
+
+    #divHottags li a:hover,
+    #divHottags li a:focus,
+    .single-tags li a:hover,
+    .single-tags li a:focus,
+    #divTags li a:hover,
+    #divTags li a:focus {
+      border: 1px #0099cc solid;
+      background: #0099cc
+    }
+
+    .post-single pre,
+    .article-content h2,
+    .article-content h3,
+    .article-content h4,
+    .article-content h5,
+    .article-content h6 {
+      border-left: 4px solid #0099cc
+    }
+  </style>
+  <link rel="apple-touch-icon" href="http://www.zhw168.net/zb_users/theme/we_media/include/favicon_example.ico">
+  <link rel="shortcut icon" href="http://www.zhw168.net/zb_users/theme/we_media/include/favicon_example.ico"
+    type="image/x-icon">
+  <link rel="icon" href="http://www.zhw168.net/zb_users/theme/we_media/include/favicon_example.ico" type="image/x-icon">
+  <script src="__PUBLIC__/post_files/push.js.下载"></script>
+  <script src="__PUBLIC__/post_files/push.js.下载"></script>
+  <script src="__PUBLIC__/post_files/hm.js.下载"></script>
+  <script type="text/javascript" async="" src="__PUBLIC__/post_files/wapInsert.js.下载"></script>
+  <script type="text/javascript" async="" src="__PUBLIC__/post_files/hctm(2)"></script>
+  <script type="text/javascript" async="" src="__PUBLIC__/post_files/hctm(3)"></script>
+  <script type="text/javascript" async="" src="__PUBLIC__/post_files/hctm(4)"></script>
+  <script type="text/javascript" async="" src="__PUBLIC__/post_files/hctm(5)"></script>
+  <script type="text/javascript" async="" src="__PUBLIC__/post_files/hctm(6)"></script>
+  <script src="__PUBLIC__/post_files/common.js.下载"></script>
+  <script src="__PUBLIC__/post_files/c_html_js_add.php"></script>
+  <script src="__PUBLIC__/post_files/prism.js.下载" type="text/javascript"></script>
+  <link rel="stylesheet" type="text/css" href="__PUBLIC__/post_files/prism.css">
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+  <script src="http://apps.bdimg.com/libs/html5shiv/3.7/html5.min.js"></script>
+  <script src="http://apps.bdimg.com/libs/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
+  <link rel="stylesheet" rev="stylesheet" href="__PUBLIC__/post_files/uebuttons-post.css" type="text/css" media="all">
+  <link href="__PUBLIC__/post_files/lightbox.min.css" rel="stylesheet">
+  <link rel="canonical" href="http://www.zhw168.net/index.php/post/4265.html">
+  <meta name="keywords" content="趣味惊奇,外星人,科技,趣闻,稻草人">
+
+  <title>中国天眼刚投入使用就监听到可疑信号 霍金警告：不要回答任何信息</title>
+  <script src="__PUBLIC__/post_files/share.js.下载"></script>
+  <script src="__PUBLIC__/post_files/share.js.下载"></script>
+
+  <link rel="stylesheet" href="__PUBLIC__/post_files/share_style0_32.css">
+</head>
+
+<body>
+  <div id="BAIDU_DUP_fp_wrapper"
+    style="position: absolute; left: -1px; bottom: -1px; z-index: 0; width: 0px; height: 0px; overflow: hidden; visibility: hidden; display: none;">
+    <iframe id="BAIDU_DUP_fp_iframe" src="__PUBLIC__/post_files/o.html"
+      style="width: 0px; height: 0px; visibility: hidden; display: none;"></iframe></div>
+  <div id="header_content">
+    <a id="skippy" class="sr-only sr-only-focusable" href="http://www.zhw168.net/index.php/post/4265.html#content">
+      <div class="container"><span class="skiplink-text">Skip to main content</span></div>
+    </a>
+
+
+    <!--header-->
+    <div class="navoverlay"></div>
+    <nav class="navbar navbar-static-top">
+      <div class="container">
+        <div class="navbar-header">
+          <div class="searchform_button pull-right hidden-sm hidden-md hidden-lg"><i class="fa fa-search fa-lg"></i>
+          </div>
+          <button type="button" class="navbar-toggle collapsed pull-left" data-toggle="offcanvas"
+            aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="http://www.zhw168.net/" title="稻草人"><img src="__PUBLIC__/post_files/logo.png"
+              alt="稻草人"></a>
+          <h2 class="hidden"><a href="http://www.zhw168.net/" title="稻草人">稻草人</a></h2>
+        </div>
+        <div id="navbar" class="collapsed navbar-collapse sidebar-offcanvas" data-type="article" data-infoid="12">
+          <ul class="nav navbar-nav" id="menu-navigation">
+            <li id="nvabar-item-index"><a href="http://www.zhw168.net/">首页</a></li>
+            <li id="navbar-category-5"><a href="http://www.zhw168.net/index.php/category-5.html">图片</a></li>
+            <li id="navbar-category-7"><a href="http://www.zhw168.net/index.php/category-7.html">段子</a></li>
+            <li id="navbar-category-6"><a href="http://www.zhw168.net/index.php/category-6.html">视频</a></li>
+            <li id="navbar-category-3"><a href="http://www.zhw168.net/index.php/category-3.html">音乐</a></li>
+            <li id="navbar-tag-12"><a href="http://www.zhw168.net/index.php/tags-12.html">美女</a></li>
+            <li id="navbar-category-10"><a href="http://www.zhw168.net/index.php/category-10.html">趣闻</a></li>
+          </ul>
+          <div class="searchform_button navbar-right hidden-xs hidden-sm"><i class="fa fa-search fa-lg"></i></div>
+        </div>
+        <div style="position:relative">
+          <form id="searchform" name="f1" onsubmit="return g(this)" target="_blank">
+            <button type="submit" class="form-button"><i class="fa fa-search"></i></button>
+            <input type="text" value="" placeholder="百度站内搜索…" class="form-text form-input" name="word"
+              onfocus="checkHttps">
+            <input name="tn" type="hidden" value="SE_zzsearchcode_shhzc78w">
+            <input name="cl" type="hidden" value="3">
+            <input name="ct" type="hidden">
+            <input name="si" type="hidden" value="">
+            <input name="ie" type="hidden" value="utf-8">
+            <input name="s" type="radio" class="hidden"><input name="s" type="radio" class="hidden" checked="">
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!--promotion-->
+    <!--content-->
+    <div class="main-wrap container" id="content">
+      <div class="col-xs-12 col-sm-12 col-md-8" id="left-content">
+        <!--post-single-->
+        <div class="post-single">
+          <div class="page-position"><i class="fa fa-home"></i>&nbsp;<span class="hidden-xs">当前位置：</span><a
+              href="http://www.zhw168.net/" title="稻草人">首页</a> » <a
+              href="http://www.zhw168.net/index.php/category-12.html" title="查看 趣味惊奇 的全部文章" rel="category tag">趣味惊奇</a>
+            » <a href="http://www.zhw168.net/index.php/category-10.html" title="查看 趣闻 的全部文章" rel="category tag">趣闻</a>
+            <span class="hidden-xs"> » 正文</span></div>
+          <h1 class="single-title text-center"><a href="http://www.zhw168.net/index.php/post/4265.html"
+              title="中国天眼刚投入使用就监听到可疑信号 霍金警告：不要回答任何信息" rel="bookmark">中国天眼刚投入使用就监听到可疑信号 霍金警告：不要回答任何信息</a></h1>
+          <div class="single-time text-center"><i class="fa fa-clock-o"></i>2016年10月04日<em></em><i
+              class="fa fa-eye"></i>1660<em></em><i class="fa fa-commenting-o"></i><a
+              href="http://www.zhw168.net/index.php/post/4265.html#AjaxCommentBegin">1</a></div>
+          <div class="article-content">
+            <div class="hidden-sm hidden-md hidden-lg text-center">
+              <script type="text/javascript">
+                /*20:3 创建于 2016/9/19*/
+                var cpro_id = "u2766986";
+              </script>
+              <script type="text/javascript" src="__PUBLIC__/post_files/cm.js.下载"></script>
+              <div id="BAIDU_SSP__wrapper_u2766986_0"
+                style="box-sizing: content-box; text-align: center; display: block; font-size: 0px; width: 100%; height: 105px;">
+                <div style="box-sizing: content-box;width:698px;height:105px;position:relative;margin:0 auto;">
+
+                  <iframe id="iframeu2766986_0" src="__PUBLIC__/post_files/hctm.html" width="698" height="105"
+                    align="center,center" vspace="0" hspace="0" marginwidth="0" marginheight="0" scrolling="no"
+                    frameborder="0" style="border:0;vertical-align:bottom;margin:0;width:698px;height:105px"
+                    allowtransparency="true"></iframe></div>
+              </div>
+            </div>
+
+            <p class="text-indent"><span style="font-size: 16px;">中国天眼刚投入使用就监听到可疑信号 霍金警告：不要回答任何信息</span></p>
+
+            <p class="text-indent">
+              <a href="__PUBLIC__/post_files/52e1b27ajw1f8g28hvtj8j20dw0opjtt.jpg" class="example-image-link"
+                data-lightbox="example-set">
+                <img src="__PUBLIC__/post_files/52e1b27ajw1f8g28hvtj8j20dw0opjtt.jpg"
+                  alt="中国天眼刚投入使用就监听到可疑信号 霍金警告：不要回答任何信息" class="img-responsive"
+                  original="http://ww1.sinaimg.cn/mw690/52e1b27ajw1f8g28hvtj8j20dw0opjtt.jpg"
+                  style="margin-left: -2em; display: inline-block;"></a></p>
+
+            <script type="text/javascript">
+              var cpro_id = "u2766986";
+            </script>
+
+            <script type="text/javascript" src="__PUBLIC__/post_files/cm.js.下载"></script>
+
+
+
+            太空伊卡洛斯
+            今年可谓是中国天文学领域发展的重要一年，位于贵州的500米直径射电望远镜正式投入使用，这是世界上最大的球面射电望远镜，超过位于波多黎各的阿雷西博望远镜，后者直径为350米。建造如此巨大的射电天线，只有一个目的就是研究宇宙，接收宇宙中的可疑信号。不然整这么大的一个锅，仅仅是观测月球，那简直是大材小用了。阿雷西博望远镜350米直径都可对银河系范围内的天体进行监听，不用说中国的500米直径射电望远镜了。</span>
+            </p>
+
+            <p style="white-space: normal;" class="text-indent">
+              <span style="font-size: 16px;">
+
+                贵州射电刚刚试运行就收到了一个可疑宇宙信号，分析结果指出这个信号源位于1300多光年之外的宇宙深空，要知道这个距离仍然处于银河系中。银河系的直径有10万光年，距离地球1300多光年的位置还真的不远。
+              </span></p>
+            <p style="white-space: normal;" class="text-indent">
+              <span style="font-size: 16px;">
+                信号源有着很强的脉冲特点，这组电磁波信号是FAST建成后探测到的第一个可疑宇宙信号，目前科学家认为这是脉冲星所发出的规律脉冲信号，但也有研究指出，地外文明可能将自己的信号伪装称脉冲星进行深空通信，避免暴露自己的位置。
+              </span></p>
+            <p style="white-space: normal;" class="text-indent">
+              <span style="font-size: 16px;">
+                就在这几天，著名科学家霍金表示和俄罗斯商人共建的监听计划将首次对半人马座阿尔法星进行监听，以确定这里是否有地外文明存在。霍金作为监听计划的重要成员，再次发出了警告，希望世界上能够监听到宇宙信号的射电望远镜不要回答任何可疑讯号。在不明白对方意图的情况下，不要暴露人类文明的存在。</span>
+            </p>
+            <p style="white-space: normal;" class="text-indent">
+              <span
+                style="font-size: 16px;">事实上霍金的观点获得了大多数天文学家的支持，宇宙之大必然有地外文明存在，不见得拥有星际航行技术的地外文明有义务帮助人类发展航天技术。假如有一天真的收到地外文明信号，我们该不该回答？
+              </span></p>
+
+
+            <div id="autoInsertWapper_u2694063_1">
+              <div id="cpro_u2694063_1"></div>
+              <script
+                type="text/javascript">(window["cpro_mobile_slot"] = window["cpro_mobile_slot"] || []).push({ id: "u2694063", tn: "template_inlay_all_mobile_lu_native_ad_rainbow", pat: "27", wn: "3", hn: "1", ist: "124", at: "linkunit", adind: "1.1" });</script>
+              <script src="__PUBLIC__/post_files/cm.js.下载" type="text/javascript"></script>
+            </div>
+          </div>
+          <script>$(function () { $('.article-content p').addClass("text-indent"); })</script>
+          <script>$(function () { $(".article-content img").css("margin-left", "-2em") })</script>
+          <script>$(function () { $(".article-content img").css("display", "inline-block") })</script>
+          <div class="clearfix"></div>
+          <div class="hidden-sm hidden-md hidden-lg text-center" id="zanad">
+            <script type="text/javascript">
+              /*20:3 创建于 2016/9/19*/
+              var cpro_id = "u2766986";
+            </script>
+            <script type="text/javascript" src="__PUBLIC__/post_files/cm.js.下载"></script>
+            <div id="BAIDU_SSP__wrapper_u2766986_2"
+              style="box-sizing: content-box; text-align: center; display: block; font-size: 0px; width: 100%; height: 105px;">
+              <div style="box-sizing: content-box;width:698px;height:105px;position:relative;margin:0 auto;"><iframe
+                  id="iframeu2766986_2" src="__PUBLIC__/post_files/hctm(8).html" width="698" height="105"
+                  align="center,center" vspace="0" hspace="0" marginwidth="0" marginheight="0" scrolling="no"
+                  frameborder="0" style="border:0;vertical-align:bottom;margin:0;width:698px;height:105px"
+                  allowtransparency="true"></iframe></div>
+            </div>
+          </div>
+          <!--点赞分享按钮-->
+          <div class="single-share text-center">
+            <ul class="list-unstyled list-inline">
+              <li><a id="zbpzan-4265" class="btn zan we_media" onclick="we_media(&#39;4265&#39;)"
+                  href="javascript:void(0);"><i class="fa fa-thumbs-up"></i>&nbsp;&nbsp;赞 (<span>11</span>)</a></li>
+              <li class="hidden-xs"><a class="btn erweima bdsharebuttonbox bdshare-button-style0-32" data-cmd="weixin"
+                  data-bd-bind="1489534787499"><i class="fa fa-qrcode"></i>&nbsp;&nbsp;二维码</a></li>
+              <li><a class="btn share" data-toggle="modal" data-target=".baidushare"><i
+                    class="fa fa-share-alt"></i>&nbsp;&nbsp;分享</a></li>
+            </ul>
+          </div>
+          <div class="modal fade baidushare" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+            <div class="modal-dialog modal-sm">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                      aria-hidden="true">×</span></button>
+                  <h4 class="modal-title">分享到</h4>
+                </div>
+                <div class="modal-body">
+                  <div class="bdsharebuttonbox bdshare-button-style0-32" data-bd-bind="1489534787499">
+                    <div class="bdsharebuttonbox bdshare-button-style0-32" data-bd-bind="1489534787499"><a
+                        href="http://www.zhw168.net/index.php/post/4265.html#" class="bds_more" data-cmd="more"></a><a
+                        href="http://www.zhw168.net/index.php/post/4265.html#" class="bds_tsina" data-cmd="tsina"
+                        title="分享到新浪微博"></a><a href="http://www.zhw168.net/index.php/post/4265.html#" class="bds_weixin"
+                        data-cmd="weixin" title="分享到微信"></a><a href="http://www.zhw168.net/index.php/post/4265.html#"
+                        class="bds_sqq" data-cmd="sqq" title="分享到QQ好友"></a><a
+                        href="http://www.zhw168.net/index.php/post/4265.html#" class="bds_qzone" data-cmd="qzone"
+                        title="分享到QQ空间"></a><a href="http://www.zhw168.net/index.php/post/4265.html#" class="bds_fbook"
+                        data-cmd="fbook" title="分享到Facebook"></a><a
+                        href="http://www.zhw168.net/index.php/post/4265.html#" class="bds_tqq" data-cmd="tqq"
+                        title="分享到腾讯微博"></a><a href="http://www.zhw168.net/index.php/post/4265.html#" class="bds_renren"
+                        data-cmd="renren" title="分享到人人网"></a><a href="http://www.zhw168.net/index.php/post/4265.html#"
+                        class="bds_douban" data-cmd="douban" title="分享到豆瓣网"></a></div>
+                    <script>window._bd_share_config = { "common": { "bdSnsKey": {}, "bdText": "", "bdMini": "2", "bdMiniList": false, "bdPic": "", "bdStyle": "0", "bdSize": "24" }, "share": {}, "image": { "viewList": ["tsina", "weixin", "sqq", "qzone", "fbook", "tqq", "renren", "douban"], "viewText": "分享到：", "viewSize": "16" }, "selectShare": { "bdContainerClass": null, "bdSelectMiniList": ["tsina", "weixin", "sqq", "qzone", "fbook", "tqq", "renren", "douban"] } }; with (document) 0[(getElementsByTagName('head')[0] || body).appendChild(createElement('script')).src = 'http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion=' + ~(-new Date() / 36e5)];</script>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--上下篇-->
+          <div class="prev-next">
+            <p>上一篇: <a href="http://www.zhw168.net/index.php/post/4264.html"
+                title="终于知道影视剧里这样的镜头都是怎么拍的了…">终于知道影视剧里这样的镜头都是怎么拍的了…</a></p>
+            <p>下一篇: <a href="http://www.zhw168.net/index.php/post/4266.html" title="你们喜欢的美腿福利">你们喜欢的美腿福利</a></p>
+          </div>
+          <!--标签-->
+          <div class="single-tags">
+            <ul class="list-unstyled list-inline">
+              <li><a href="http://www.zhw168.net/index.php/tags-53.html" title="趣味惊奇">趣味惊奇</a></li>
+              <li><a href="http://www.zhw168.net/index.php/tags-177.html" title="外星人">外星人</a></li>
+              <li><a href="http://www.zhw168.net/index.php/tags-154.html" title="科技">科技</a></li>
+            </ul>
+          </div>
+          <!--引用规范-->
+          <div class="single-copyright"><i class="fa fa-hand-o-right"></i>&nbsp;&nbsp;文章来源：<a rel="author"
+              href="http://www.zhw168.net/" title="稻草人">稻草人</a>，欢迎分享，转载请保留出处<br><i
+              class="fa fa-quote-left"></i>&nbsp;&nbsp;原文地址：<a href="http://www.zhw168.net/index.php/post/4265.html"
+              title="中国天眼刚投入使用就监听到可疑信号 霍金警告：不要回答任何信息">http://www.zhw168.net/index.php/post/4265.html</a></div>
+          <div class="hidden-sm hidden-md hidden-lg text-center" id="xgad">
+            <script type="text/javascript">
+              /*20:3 创建于 2016/9/19*/
+              var cpro_id = "u2766986";
+            </script>
+            <script type="text/javascript" src="__PUBLIC__/post_files/cm.js.下载"></script>
+            <div id="BAIDU_SSP__wrapper_u2766986_3"
+              style="box-sizing: content-box; text-align: center; display: block; font-size: 0px; width: 100%; height: 105px;">
+              <div style="box-sizing: content-box;width:698px;height:105px;position:relative;margin:0 auto;"><iframe
+                  id="iframeu2766986_3" src="__PUBLIC__/post_files/hctm(9).html" width="698" height="105"
+                  align="center,center" vspace="0" hspace="0" marginwidth="0" marginheight="0" scrolling="no"
+                  frameborder="0" style="border:0;vertical-align:bottom;margin:0;width:698px;height:105px"
+                  allowtransparency="true"></iframe></div>
+            </div>
+          </div>
+          <!--阅读延展-->
+          <div class="mutuality">
+            <div class="mutuality-title text-center">阅读延展</div>
+            <div class="row">
+              <div class="col-xs-6 col-sm-4">
+                <div class="mutuality-pic">
+                  <a href="http://www.zhw168.net/index.php/post/5092.html" title="男友不肯当众亲吻 女子下一秒神逆转：网友笑喷"><span
+                      style="background:url(http://www.zhw168.net/zb_users/plugin/sf_img1/pic.php?src=aHR0cHM6Ly9ucy5zaW5haW1nLmNuL2RlZmF1bHQvMjAxNzAzMTQvZGVycy1meWNodHRmOTcwNjI0My5wbmc%3D&amp;width=210&amp;height=140&amp;cuttype=4);background-size:cover;-moz-background-size:cover"></span></a>
+                  <p><a href="http://www.zhw168.net/index.php/post/5092.html" title="男友不肯当众亲吻 女子下一秒神逆转：网友笑喷">男友不肯当众亲吻
+                      女子下一秒神逆转：网友笑喷</a></p>
+                </div>
+              </div>
+              <div class="col-xs-6 col-sm-4">
+                <div class="mutuality-pic">
+                  <a href="http://www.zhw168.net/index.php/post/5091.html" title="那个瞬间矫正视力的Ocumetics仿生镜片真的要上市了！！"><span
+                      style="background:url(http://www.zhw168.net/zb_users/plugin/sf_img1/pic.php?src=aHR0cDovL3d4My5zaW5haW1nLmNuL213NjkwLzk3ZDVjZDhkbHkxZmRtbTZqM21seWoyMDkzMGozd2hvLmpwZw%3D%3D&amp;width=210&amp;height=140&amp;cuttype=4);background-size:cover;-moz-background-size:cover"></span></a>
+                  <p><a href="http://www.zhw168.net/index.php/post/5091.html"
+                      title="那个瞬间矫正视力的Ocumetics仿生镜片真的要上市了！！">那个瞬间矫正视力的Ocumetics仿生镜片真的要上市了！！</a></p>
+                </div>
+              </div>
+              <div class="col-xs-6 col-sm-4">
+                <div class="mutuality-pic">
+                  <a href="http://www.zhw168.net/index.php/post/5090.html" title="79岁琼瑶突发文交代身后事：让我死得快最重要"><span
+                      style="background:url(http://www.zhw168.net/zb_users/plugin/sf_img1/pic.php?src=aHR0cDovL3RjLnNpbmFpbWcuY24vbWF4d2lkdGguMjA0OC90Yy5zZXJ2aWNlLndlaWJvLmNvbS9wM19pZmVuZ2ltZ19jb20vYWEwZDM1NzlkNjhjNzY3OWE3YjIyYTU5YmVmNTQwNjYucG5n&amp;width=210&amp;height=140&amp;cuttype=4);background-size:cover;-moz-background-size:cover"></span></a>
+                  <p><a href="http://www.zhw168.net/index.php/post/5090.html"
+                      title="79岁琼瑶突发文交代身后事：让我死得快最重要">79岁琼瑶突发文交代身后事：让我死得快最重要</a></p>
+                </div>
+              </div>
+              <div class="col-xs-6 col-sm-4">
+                <div class="mutuality-pic">
+                  <a href="http://www.zhw168.net/index.php/post/5089.html" title="史无前例！3400名中国游客在韩国济州岛拒下邮轮"><span
+                      style="background:url(http://www.zhw168.net/zb_users/theme/we_media/include/random/15.jpg);background-size:cover;-moz-background-size:cover"></span></a>
+                  <p><a href="http://www.zhw168.net/index.php/post/5089.html"
+                      title="史无前例！3400名中国游客在韩国济州岛拒下邮轮">史无前例！3400名中国游客在韩国济州岛拒下邮轮</a></p>
+                </div>
+              </div>
+              <div class="col-xs-6 col-sm-4">
+                <div class="mutuality-pic">
+                  <a href="http://www.zhw168.net/index.php/post/5087.html" title="15天快速流汗疯狂燃脂 春天练起来"><span
+                      style="background:url(http://www.zhw168.net/zb_users/theme/we_media/include/random/20.jpg);background-size:cover;-moz-background-size:cover"></span></a>
+                  <p><a href="http://www.zhw168.net/index.php/post/5087.html" title="15天快速流汗疯狂燃脂 春天练起来">15天快速流汗疯狂燃脂
+                      春天练起来</a></p>
+                </div>
+              </div>
+              <div class="col-xs-6 col-sm-4">
+                <div class="mutuality-pic">
+                  <a href="http://www.zhw168.net/index.php/post/5086.html" title="女子新婚夜错上伴郎床 法院判对方无罪"><span
+                      style="background:url(http://www.zhw168.net/zb_users/plugin/sf_img1/pic.php?src=aHR0cDovL24uc2luYWltZy5jbi9uZXdzL2NyYXdsLzIwMTcwMzEzL2h5eFQtZnljaGh1cTQxNjgzNDkuanBn&amp;width=210&amp;height=140&amp;cuttype=4);background-size:cover;-moz-background-size:cover"></span></a>
+                  <p><a href="http://www.zhw168.net/index.php/post/5086.html" title="女子新婚夜错上伴郎床 法院判对方无罪">女子新婚夜错上伴郎床
+                      法院判对方无罪</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--评论-->
+        <div class="comments">
+          <div class="comments-title"><i class="fa fa-comments-o"></i><span>评论列表</span><small>1条评论</small></div>
+          <label id="AjaxCommentBegin"></label>
+          <blockquote id="cmt94">
+            <figure> <img src="__PUBLIC__/post_files/34.jpg" alt="访客"
+                original="http://www.zhw168.net/zb_users/theme/we_media/include/avator/34.jpg" style="display: block;">
+            </figure>
+            <cite><b><a href="http://www.zhw168.net/index.php/post/4265.html" rel="nofollow"
+                  target="_blank">访客</a></b><time>2016-10-05 15:43:21</time><span class="revertcomment"><a
+                  href="http://www.zhw168.net/index.php/post/4265.html#reply"
+                  onclick="RevertComment(&#39;94&#39;)">回复</a></span></cite>
+            <q>迟早会回答的，因为。。。<label id="AjaxComment94"></label> </q>
+          </blockquote>
+          <!--评论翻页条-->
+          <div class="comment-pagebar">
+          </div>
+          <label id="AjaxCommentEnd"></label>
+        </div>
+        <!--评论框-->
+        <div class="post-comment" id="divCommentPost">
+          <dl id="postcmt">
+            <dt class="comment-title" name="comment"><i class="fa fa-paper-plane"></i><span>发表评论<a rel="nofollow"
+                  id="cancel-reply" href="http://www.zhw168.net/index.php/post/4265.html#divCommentPost"
+                  style="display:none;">取消回复</a></span></dt>
+            <dd>
+              <figure class="hidden-xs"><img src="__PUBLIC__/post_files/0.png" alt="访客"><b></b></figure>
+              <form id="frmSumbit" target="_self" method="post"
+                action="http://www.zhw168.net/zb_system/cmd.php?act=cmt&amp;postid=4265&amp;key=76bba9984b1986ee7ce4f4bd8cb43f7d">
+                <input type="hidden" name="inpId" id="inpId" value="4265">
+                <input type="hidden" name="inpRevID" id="inpRevID" value="0">
+                <div class="row comment-form">
+                  <div class="form-group col-xs-12 col-sm-6"><input type="text" id="inpName" name="inpName" tabindex="1"
+                      value="访客" placeholder="名称（必填）"></div>
+                  <div class="form-group col-xs-12 col-sm-6"><input type="text" id="inpEmail" name="inpEmail"
+                      tabindex="2" value="" placeholder="邮箱"></div>
+                  <div class="form-group col-xs-12 col-sm-6"><input type="text" id="inpHomePage" name="inpHomePage"
+                      tabindex="3" value="" placeholder="网址"></div>
+                  <div class="form-group col-xs-12">
+                    <div class="comt-box">
+                      <div id="comment-tools">
+                        <a title="粗体字"
+                          onmousedown="InsertText(objActive,ReplaceText(objActive,&#39;[B]&#39;,&#39;[/B]&#39;),true);"><i
+                            class="fa fa-bold"></i></a>
+                        <a title="斜体字"
+                          onmousedown="InsertText(objActive,ReplaceText(objActive,&#39;[I]&#39;,&#39;[/I]&#39;),true);"><i
+                            class="fa fa-italic"></i></a>
+                        <a title="下划线"
+                          onmousedown="InsertText(objActive,ReplaceText(objActive,&#39;[U]&#39;,&#39;[/U]&#39;),true);"><i
+                            class="fa fa-underline"></i></a>
+                        <a title="删除线"
+                          onmousedown="InsertText(objActive,ReplaceText(objActive,&#39;[S]&#39;,&#39;[/S]&#39;),true);"><i
+                            class="fa fa-strikethrough"></i></a>
+                        <a href="javascript:addNumber(&#39;文章不错！写的很好&#39;)">好</a>
+                        <a href="javascript:addNumber(&#39;我顶！！顶顶顶&#39;)">顶</a>
+                        <a href="javascript:addNumber(&#39;我踩！我踩踩踩&#39;)">踩</a>
+                        <a href="javascript:;" class="face-show"><i class="fa fa-smile-o"></i></a>
+                        <div id="ComtoolsFrame" class="ComtoolsFrame" style="display: none;"><img
+                            src="__PUBLIC__/post_files/angry.png" alt="angry"
+                            onclick="InsertText(objActive,&#39;[&#39;+this.alt+&#39;]&#39;,false);"><img
+                            src="__PUBLIC__/post_files/awkward.png" alt="awkward"
+                            onclick="InsertText(objActive,&#39;[&#39;+this.alt+&#39;]&#39;,false);"><img
+                            src="__PUBLIC__/post_files/boom.png" alt="boom"
+                            onclick="InsertText(objActive,&#39;[&#39;+this.alt+&#39;]&#39;,false);"><img
+                            src="__PUBLIC__/post_files/bye.png" alt="bye"
+                            onclick="InsertText(objActive,&#39;[&#39;+this.alt+&#39;]&#39;,false);"><img
+                            src="__PUBLIC__/post_files/confuse.png" alt="confuse"
+                            onclick="InsertText(objActive,&#39;[&#39;+this.alt+&#39;]&#39;,false);"><img
+                            src="__PUBLIC__/post_files/cry.png" alt="cry"
+                            onclick="InsertText(objActive,&#39;[&#39;+this.alt+&#39;]&#39;,false);"><img
+                            src="__PUBLIC__/post_files/effort.png" alt="effort"
+                            onclick="InsertText(objActive,&#39;[&#39;+this.alt+&#39;]&#39;,false);"><img
+                            src="__PUBLIC__/post_files/exclaim.png" alt="exclaim"
+                            onclick="InsertText(objActive,&#39;[&#39;+this.alt+&#39;]&#39;,false);"><img
+                            src="__PUBLIC__/post_files/grimace.png" alt="grimace"
+                            onclick="InsertText(objActive,&#39;[&#39;+this.alt+&#39;]&#39;,false);"><img
+                            src="__PUBLIC__/post_files/grin.png" alt="grin"
+                            onclick="InsertText(objActive,&#39;[&#39;+this.alt+&#39;]&#39;,false);"><img
+                            src="__PUBLIC__/post_files/kiss.png" alt="kiss"
+                            onclick="InsertText(objActive,&#39;[&#39;+this.alt+&#39;]&#39;,false);"><img
+                            src="__PUBLIC__/post_files/laugh.png" alt="laugh"
+                            onclick="InsertText(objActive,&#39;[&#39;+this.alt+&#39;]&#39;,false);"><img
+                            src="__PUBLIC__/post_files/love.png" alt="love"
+                            onclick="InsertText(objActive,&#39;[&#39;+this.alt+&#39;]&#39;,false);"><img
+                            src="__PUBLIC__/post_files/mad.png" alt="mad"
+                            onclick="InsertText(objActive,&#39;[&#39;+this.alt+&#39;]&#39;,false);"><img
+                            src="__PUBLIC__/post_files/neutral.png" alt="neutral"
+                            onclick="InsertText(objActive,&#39;[&#39;+this.alt+&#39;]&#39;,false);"><img
+                            src="__PUBLIC__/post_files/roll.png" alt="roll"
+                            onclick="InsertText(objActive,&#39;[&#39;+this.alt+&#39;]&#39;,false);"><img
+                            src="__PUBLIC__/post_files/shutup.png" alt="shutup"
+                            onclick="InsertText(objActive,&#39;[&#39;+this.alt+&#39;]&#39;,false);"><img
+                            src="__PUBLIC__/post_files/surprise.png" alt="surprise"
+                            onclick="InsertText(objActive,&#39;[&#39;+this.alt+&#39;]&#39;,false);"><img
+                            src="__PUBLIC__/post_files/twisted.png" alt="twisted"
+                            onclick="InsertText(objActive,&#39;[&#39;+this.alt+&#39;]&#39;,false);"><img
+                            src="__PUBLIC__/post_files/waii.png" alt="waii"
+                            onclick="InsertText(objActive,&#39;[&#39;+this.alt+&#39;]&#39;,false);"></div>
+                      </div> <textarea placeholder="请爱护环境，勿发小广告！O(∩_∩)O~~" class="input-block-level comt-area"
+                        name="txaArticle" id="txaArticle" cols="100%" rows="3" tabindex="5"
+                        onkeydown="if(event.ctrlKey&amp;&amp;event.keyCode==13){document.getElementById(&#39;submit&#39;).click();return false};"></textarea>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-xs-12"><input name="sumbit" type="submit" value="发表评论" tabindex="6"
+                        onclick="return VerifyMessage()"></div>
+                  </div>
+                </div>
+              </form>
+            </dd>
+          </dl>
+        </div>
+      </div>
+      <div class="col-xs-12 col-md-4 hidden-xs hidden-sm" id="sidebar">
+        <dl class="function" id="divHottags">
+          <dt class="function_t">热门话题</dt>
+          <dd class="function_c">
+
+
+            <ul>
+              <li><a href="http://www.zhw168.net/index.php/tags-53.html" title="趣味惊奇">趣味惊奇</a></li>
+              <li><a href="http://www.zhw168.net/index.php/tags-7.html" title="搞笑图片">搞笑图片</a></li>
+              <li><a href="http://www.zhw168.net/index.php/tags-39.html" title="社会新闻">社会新闻</a></li>
+              <li><a href="http://www.zhw168.net/index.php/tags-9.html" title="内涵图">内涵图</a></li>
+              <li><a href="http://www.zhw168.net/index.php/tags-14.html" title="搞笑视频">搞笑视频</a></li>
+              <li><a href="http://www.zhw168.net/index.php/tags-6.html" title="搞笑段子">搞笑段子</a></li>
+              <li><a href="http://www.zhw168.net/index.php/tags-4.html" title="内涵段子">内涵段子</a></li>
+              <li><a href="http://www.zhw168.net/index.php/tags-13.html" title="视频">视频</a></li>
+              <li><a href="http://www.zhw168.net/index.php/tags-159.html" title="搞笑gif">搞笑gif</a></li>
+              <li><a href="http://www.zhw168.net/index.php/tags-23.html" title="娱乐新闻">娱乐新闻</a></li>
+            </ul>
+
+          </dd>
+        </dl>
+        <dl class="function" id="divNewpost">
+          <dt class="function_t">最新发布</dt>
+          <dd class="function_c">
+
+
+            <ul>
+              <li><a href="http://www.zhw168.net/index.php/post/5095.html"
+                  title="有一个执行力超群的室友是一种什么感受">有一个执行力超群的室友是一种什么感受</a></li>
+              <li><a href="http://www.zhw168.net/index.php/post/5094.html"
+                  title="谁能想到，《骆驼和羊》竟然是篇生物课课文。">谁能想到，《骆驼和羊》竟然是篇生物课课文。</a></li>
+              <li><a href="http://www.zhw168.net/index.php/post/5093.html" title="连卡号都不留我，给你转个杰宝啊！">连卡号都不留我，给你转个杰宝啊！</a>
+              </li>
+              <li><a href="http://www.zhw168.net/index.php/post/5092.html" title="男友不肯当众亲吻 女子下一秒神逆转：网友笑喷">男友不肯当众亲吻
+                  女子下一秒神逆转：网友笑喷</a></li>
+              <li><a href="http://www.zhw168.net/index.php/post/5091.html"
+                  title="那个瞬间矫正视力的Ocumetics仿生镜片真的要上市了！！">那个瞬间矫正视力的Ocumetics仿生镜片真的要上市了！！</a></li>
+              <li><a href="http://www.zhw168.net/index.php/post/5090.html"
+                  title="79岁琼瑶突发文交代身后事：让我死得快最重要">79岁琼瑶突发文交代身后事：让我死得快最重要</a></li>
+              <li><a href="http://www.zhw168.net/index.php/post/5089.html"
+                  title="史无前例！3400名中国游客在韩国济州岛拒下邮轮">史无前例！3400名中国游客在韩国济州岛拒下邮轮</a></li>
+              <li><a href="http://www.zhw168.net/index.php/post/5088.html"
+                  title="三分钟带你回味八九十年代港片里的百媚千娇">三分钟带你回味八九十年代港片里的百媚千娇</a></li>
+              <li><a href="http://www.zhw168.net/index.php/post/5087.html" title="15天快速流汗疯狂燃脂 春天练起来">15天快速流汗疯狂燃脂
+                  春天练起来</a></li>
+              <li><a href="http://www.zhw168.net/index.php/post/5086.html" title="女子新婚夜错上伴郎床 法院判对方无罪">女子新婚夜错上伴郎床
+                  法院判对方无罪</a></li>
+            </ul>
+
+          </dd>
+        </dl>
+        <dl class="function" id="divNewcomm">
+          <dt class="function_t">最新评论</dt>
+          <dd class="function_c">
+
+            <div>
+              <dl>
+                <dt><img src="__PUBLIC__/post_files/10.jpg" alt="访客"
+                    original="http://www.zhw168.net/zb_users/theme/we_media/include/avator/10.jpg"></dt>
+                <dd><span><b>访客</b><i>2017年03月08日</i></span>
+                  <p><a href="http://www.zhw168.net/index.php/post/5063.html#cmt115"
+                      title="访客在《不会做饭怎能把妹？怎么做馋嘴哇才好吃》发表评论">原帖是我在虎扑发的</a></p>
+                </dd>
+              </dl>
+              <dl>
+                <dt><img src="__PUBLIC__/post_files/4.jpg" alt="访客"
+                    original="http://www.zhw168.net/zb_users/theme/we_media/include/avator/4.jpg"></dt>
+                <dd><span><b>访客</b><i>2017年03月06日</i></span>
+                  <p><a href="http://www.zhw168.net/index.php/post/5051.html#cmt114"
+                      title="访客在《赞比亚一处商场上空出现不明物体，这是哪路神仙啊！》发表评论">啥玩意</a></p>
+                </dd>
+              </dl>
+              <dl>
+                <dt><img src="__PUBLIC__/post_files/18.jpg" alt="访客"
+                    original="http://www.zhw168.net/zb_users/theme/we_media/include/avator/18.jpg"></dt>
+                <dd><span><b>访客</b><i>2017年03月04日</i></span>
+                  <p><a href="http://www.zhw168.net/index.php/post/4328.html#cmt113"
+                      title="访客在《胆小勿入！网友爆料廊坊梨园村男子杀妻剥皮碎尸吃肉》发表评论">脑瘫一个 随你来说啥都是假的</a></p>
+                </dd>
+              </dl>
+              <dl>
+                <dt><img src="__PUBLIC__/post_files/29.jpg" alt="访客"
+                    original="http://www.zhw168.net/zb_users/theme/we_media/include/avator/29.jpg"></dt>
+                <dd><span><b>访客</b><i>2017年02月23日</i></span>
+                  <p><a href="http://www.zhw168.net/index.php/post/4328.html#cmt112"
+                      title="访客在《胆小勿入！网友爆料廊坊梨园村男子杀妻剥皮碎尸吃肉》发表评论">这是真的好吗</a></p>
+                </dd>
+              </dl>
+              <dl>
+                <dt><img src="__PUBLIC__/post_files/2.jpg" alt="访客"
+                    original="http://www.zhw168.net/zb_users/theme/we_media/include/avator/2.jpg"></dt>
+                <dd><span><b>访客</b><i>2017年02月10日</i></span>
+                  <p><a href="http://www.zhw168.net/index.php/post/4900.html#cmt111"
+                      title="访客在《女司机左拐撞飞女童 曾制造8次事故3次撞人》发表评论">人肉李某，出了那么多事故还敢开车撞人，李还是不是人</a></p>
+                </dd>
+              </dl>
+            </div>
+
+
+          </dd>
+        </dl>
+      </div>
+    </div>
+  </div>
+  <script src="__PUBLIC__/post_files/jquery.min.js.下载"></script>
+  <script src="__PUBLIC__/post_files/bootstrap.min.js.下载"></script>
+  <script src="__PUBLIC__/post_files/lightbox.min.js.下载"></script>
+  <div id="lightboxOverlay" class="lightboxOverlay" style="display: none;"></div>
+  <div id="lightbox" class="lightbox" style="display: none;">
+    <div class="lb-outerContainer">
+      <div class="lb-container"><img class="lb-image"
+          src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==">
+        <div class="lb-nav"><a class="lb-prev" href="http://www.zhw168.net/index.php/post/4265.html"></a><a
+            class="lb-next" href="http://www.zhw168.net/index.php/post/4265.html"></a></div>
+        <div class="lb-loader"><a class="lb-cancel"></a></div>
+      </div>
+    </div>
+    <div class="lb-dataContainer">
+      <div class="lb-data">
+        <div class="lb-details"><span class="lb-caption"></span><span class="lb-number"></span></div>
+        <div class="lb-closeContainer"><a class="lb-close"></a></div>
+      </div>
+    </div>
+  </div>
+  <script>window._bd_share_config = { "common": { "bdSnsKey": {}, "bdText": "", "bdMini": "2", "bdMiniList": false, "bdPic": "", "bdStyle": "0", "bdSize": "32" }, "share": {} }; with (document) 0[(getElementsByTagName('head')[0] || body).appendChild(createElement('script')).src = 'http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion=' + ~(-new Date() / 36e5)];</script>
+  <div class="hidden-sm hidden-md hidden-lg">
+    <script type="text/javascript">
+      /*手机智能广告代码创建于2016-07-04*/
+      var cpro_id = "u2694063";
+    </script>
+    <script src="__PUBLIC__/post_files/cm.js.下载" type="text/javascript"></script>
+    <div id="BAIDU_SSP__wrapper_u2694063_0"></div>
+  </div>
+  <!--footer-->
+  <footer id="footer">
+    <div class="container">
+      <div class="pull-left">Copyright Your WebSite.Some Rights Reserved.&nbsp;&nbsp;晋ICP备10200213号-2&nbsp;&nbsp;
+        <script
+          type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://"); document.write(unescape("%3Cspan id='cnzz_stat_icon_3790269'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s19.cnzz.com/stat.php%3Fid%3D3790269%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+        </span>
+        <script src="__PUBLIC__/post_files/core.php" charset="utf-8" type="text/javascript"></script>
+      </div>
+      <div class="rightcopy hidden-xs">本站由 <a href="http://www.zblogcn.com/" title="RainbowSoft Z-BlogPHP"
+          target="_blank">Z-BlogPHP</a> 强力驱动</div>
+    </div>
+  </footer>
+  <!--kefu-->
+  <div id="kefu" class="kefu">
+    <div class="top" style="display: none;"><i class="fa fa-angle-up fa-2x"></i></div>
+  </div>
+  <script src="__PUBLIC__/post_files/custom.js.下载"></script>
+  <script src="__PUBLIC__/post_files/offcanvas.min.js.下载"></script>
+  <script type="text/javascript" src="__PUBLIC__/post_files/sf_praise_sdk.js.下载"></script>
+</body>
+
+</html>

@@ -15,3 +15,5 @@ data/sessions_d41d8cd98f
 data/sessions_*
 data/common.inc.php
 uploads/*
+admin/application/database.php
+admin/runtime
